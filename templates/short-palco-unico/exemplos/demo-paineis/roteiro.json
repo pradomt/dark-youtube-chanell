@@ -1,0 +1,27 @@
+{
+  "tema": "noite",
+  "marca": "NOME DO CANAL",
+  "duracao": 16,
+  "batidas": [
+    {"b": 5, "apoio": [0.3, "linha de apoio pequena"], "titulo": [[0.9, "título com"], [1.5, "*destaque*"]]},
+    {"b": 10, "apoio": [5.1, "um número que"], "titulo": [[5.5, "*conta*"]]},
+    {"b": 13, "apoio": [10.1, "uma barra que"], "titulo": [[10.5, "*enche*"]]},
+    {"b": 99, "apoio": [13.1, "e a chamada"], "titulo": [[13.5, "no *final*"]]}
+  ],
+  "cartao": {
+    "a": 0.7, "b": 13.1,
+    "arquivo": [[0, "lista.txt"], [5, "numero.txt"], [10, "barra.txt"]],
+    "etiqueta": [[0, "● passo a passo"]],
+    "rotulo": [[0, "PAINEL DE LISTA"], [5, "PAINEL DE NÚMERO"], [10, "PAINEL DE BARRA"]],
+    "paineis": [
+      {"tipo": "lista", "a": 0.8, "b": 5.1, "itens": [
+        {"t": 1.2, "texto": "Primeiro item", "nota": "nota em fonte mono"},
+        {"t": 2.2, "texto": "Segundo *item*", "nota": "o item atual ganha borda"},
+        {"t": 3.2, "texto": "Terceiro item", "nota": "aparece no tempo da fala"}]},
+      {"tipo": "numero", "a": 5.1, "b": 10.1, "de": 0, "para": 44, "sufixo": "°", "conta": [5.6, 7.6], "legenda": "ALTURA DO SOL"},
+      {"tipo": "barra", "a": 10.1, "b": 13.2, "de": 0, "para": 100, "conta": [10.5, 12.3], "legenda": "PROGRESSO"}
+    ],
+    "diario": [[1.2, "00:01 · linha do diário"], [5.6, "00:05 · outra linha"], [10.5, "00:10 · mais uma"]]
+  },
+  "chamada": {"a": 13.1, "pilulas": ["vídeo completo", "no canal"], "seta": true}
+}

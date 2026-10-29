@@ -1,0 +1,36 @@
+{
+  "tema": "papel",
+  "marca": "MAPA DO CÉU",
+  "audio": "narracao.mp3",
+  "extra": "ceu.js",
+  "dados": "ceu.json",
+  "batidas": [
+    {"b": 4.15, "apoio": [0.3, "a bandeira do Brasil mostra"], "titulo": [[1.5, "um céu que"], [2.55, "*ninguém viu*"]]},
+    {"b": 6.8, "apoio": [4.2, "as estrelas estão em"], "titulo": [[5.0, "posições"], [5.55, "*reais*"]]},
+    {"b": 10.05, "apoio": [6.85, "é o céu do"], "titulo": [[7.55, "*Rio de*"], [7.9, "*Janeiro*"]]},
+    {"b": 13.25, "apoio": [10.05, "às 8h30 da manhã de"], "titulo": [[10.25, "*15/11/1889*"]]},
+    {"b": 17.25, "apoio": [13.3, "só que, a essa hora, o"], "titulo": [[14.7, "Sol estava"], [15.6, "a *+40°*"]]},
+    {"b": 20.45, "apoio": [17.3, "estrelas visíveis a olho nu:"], "titulo": [[18.2, "*nenhuma*"]]},
+    {"b": 24.95, "apoio": [20.5, "e tem mais: o desenho está"], "titulo": [[22.0, "*espelhado*"]]},
+    {"b": 99, "apoio": [25.0, "a história completa está no"], "titulo": [[26.0, "vídeo do"], [26.4, "*canal*"]]}
+  ],
+  "cartao": {
+    "a": 0.7, "b": 25.1,
+    "arquivo": [[0, "bandeira-1889.png"], [4.4, "carta-celeste.svg"]],
+    "etiqueta": [[0, "● 1889"], [20.6, "● visto de dentro"], [22.2, "● visto de fora"]],
+    "rotulo": [[0, "BANDEIRA NACIONAL · 1889"], [4.4, "CÉU DO RIO · 15/11/1889 · 08H30"]],
+    "paineis": [
+      {"tipo": "imagem", "src": "/mnt/project-files/canal-astronomia/video-01-pronto/imagens-v2/flag.png", "a": 0, "b": 4.6},
+      {"tipo": "extra", "a": 4.3, "b": 99}
+    ],
+    "diario": [
+      [5.2, "✓ 27 estrelas · uma por estado", 6.8],
+      [8.2, "08:30 · Rio de Janeiro · 22°54′S"],
+      [10.6, "15/11 · 1889 · Proclamação da República"],
+      [15.8, "☀ Sol a 44° de altura"],
+      [19.0, "✗ nenhuma estrela visível"],
+      [22.3, "↔ desenho visto de fora da esfera"]
+    ]
+  },
+  "chamada": {"a": 25.1, "pilulas": ["5 min", "Mapa do Céu"], "seta": true}
+}
