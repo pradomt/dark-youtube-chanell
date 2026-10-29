@@ -1,0 +1,804 @@
+1
+00:00:00,000 --> 00:00:05,462
+Na manhã em que Lázaro morreu, a família já sabia que ele seria enterrado antes do pôr do sol.
+
+2
+00:00:05,532 --> 00:00:10,375
+Não havia velório de dias, nem caixão, nem cemitério com lápides enfileiradas.
+
+3
+00:00:10,675 --> 00:00:16,968
+Havia um lençol de linho, um frasco de óleo, um punhado de especiarias e uma porta de pedra cavada na rocha.
+
+4
+00:00:17,268 --> 00:00:25,120
+Hoje, no Dia de Finados, vamos voltar dois mil anos e acompanhar, passo a passo, o que acontecia com um morto na Judeia do tempo de Jesus.
+
+5
+00:00:25,190 --> 00:00:31,142
+Do último suspiro até o dia, um ano depois, em que a família voltava ao túmulo para recolher os ossos.
+
+6
+00:00:31,443 --> 00:00:37,140
+E no caminho você vai entender detalhes dos evangelhos que quase sempre passam despercebidos:
+
+7
+00:00:37,210 --> 00:00:45,530
+por que Marta disse que o irmão já cheirava mal, por que as mulheres foram ao túmulo no domingo bem cedo, e que tipo de pedra fechava a entrada.
+
+8
+00:00:45,831 --> 00:00:48,540
+Tudo o que eu vou contar vem de três fontes:
+
+9
+00:00:48,610 --> 00:00:56,888
+os próprios textos bíblicos, os escritos judaicos antigos, como a Mishná e o historiador Flávio Josefo, e a arqueologia dos túmulos de Jerusalém.
+
+10
+00:00:56,959 --> 00:00:59,241
+As referências estão na descrição.
+
+11
+00:01:00,341 --> 00:01:03,030
+A primeira coisa a entender é o relógio.
+
+12
+00:01:03,100 --> 00:01:09,309
+Na Judeia do primeiro século, o enterro acontecia no mesmo dia da morte, ou no máximo no dia seguinte.
+
+13
+00:01:09,608 --> 00:01:11,551
+A regra vinha da própria Lei.
+
+14
+00:01:11,620 --> 00:01:17,787
+O livro de Deuteronômio, no capítulo 21, manda que o corpo de um condenado não passe a noite exposto:
+
+15
+00:01:17,856 --> 00:01:20,418
+deveria ser sepultado no mesmo dia.
+
+16
+00:01:20,487 --> 00:01:23,817
+Os judeus estenderam esse cuidado a todos os mortos.
+
+17
+00:01:24,117 --> 00:01:34,933
+Flávio Josefo, um historiador judeu que viveu nessa época, conta que o seu povo tinha tanto cuidado com isso que até os crucificados eram tirados da cruz e enterrados antes do pôr do sol.
+
+18
+00:01:35,233 --> 00:01:37,901
+O livro de Atos mostra o mesmo costume.
+
+19
+00:01:37,971 --> 00:01:43,006
+Quando Ananias cai morto, os jovens o envolvem, levam para fora e o sepultam na hora.
+
+20
+00:01:43,075 --> 00:01:46,362
+Três horas depois, a esposa dele tem o mesmo destino.
+
+21
+00:01:46,662 --> 00:01:48,817
+Havia também razões práticas.
+
+22
+00:01:48,887 --> 00:01:55,693
+O clima era quente, não existia embalsamamento como no Egito, e o corpo começava a se decompor em poucas horas.
+
+23
+00:01:55,992 --> 00:01:57,978
+E havia uma razão religiosa.
+
+24
+00:01:58,048 --> 00:02:05,430
+Segundo o livro de Números, quem tocava num cadáver, ou mesmo entrava na tenda onde ele estava, ficava impuro por sete dias.
+
+25
+00:02:05,500 --> 00:02:09,617
+Quanto mais tempo o corpo ficava em casa, mais gente era afetada.
+
+26
+00:02:09,918 --> 00:02:14,740
+Por isso, quando alguém morria pela manhã, a família tinha poucas horas para fazer tudo.
+
+27
+00:02:14,810 --> 00:02:17,307
+E esse tudo começava dentro de casa.
+
+28
+00:02:18,407 --> 00:02:22,674
+Logo depois da morte, alguém da família fechava os olhos do falecido.
+
+29
+00:02:22,743 --> 00:02:29,677
+É um gesto tão antigo que já aparece em Gênesis, quando Deus promete a Jacó que a mão de José fecharia os seus olhos.
+
+30
+00:02:29,978 --> 00:02:32,133
+Em seguida, o corpo era lavado.
+
+31
+00:02:32,203 --> 00:02:45,152
+A Mishná, uma coleção de leis judaicas escrita por volta do ano 200, mas que reúne costumes bem mais antigos, diz que mesmo no sábado era permitido lavar e ungir o morto, e amarrar o queixo para que a boca não ficasse aberta.
+
+32
+00:02:45,223 --> 00:02:49,747
+Se valia até no dia de descanso, é porque era considerado indispensável.
+
+33
+00:02:50,046 --> 00:02:54,591
+Depois de lavado, o corpo era ungido com óleo e perfumado com especiarias.
+
+34
+00:02:54,661 --> 00:02:56,539
+Não era um embalsamamento.
+
+35
+00:02:56,609 --> 00:03:00,941
+O objetivo era honrar o morto e disfarçar o cheiro nas horas seguintes.
+
+36
+00:03:01,241 --> 00:03:02,905
+Então vinha o tecido.
+
+37
+00:03:02,974 --> 00:03:05,643
+O corpo era envolvido em panos de linho.
+
+38
+00:03:05,712 --> 00:03:09,532
+No caso de Lázaro, o Evangelho de João dá um detalhe preciso:
+
+39
+00:03:09,602 --> 00:03:14,979
+ele saiu do túmulo com as mãos e os pés amarrados com faixas, e o rosto envolvido num pano.
+
+40
+00:03:15,278 --> 00:03:18,414
+No enterro de Jesus aparece o mesmo vocabulário.
+
+41
+00:03:18,485 --> 00:03:22,218
+Marcos diz que José de Arimateia comprou um lençol de linho.
+
+42
+00:03:22,288 --> 00:03:27,111
+João fala em faixas de linho com especiarias, e acrescenta uma frase importante:
+
+43
+00:03:27,181 --> 00:03:29,806
+assim é o costume dos judeus para sepultar.
+
+44
+00:03:30,105 --> 00:03:34,843
+João também diz que Nicodemos trouxe cerca de cem libras de mirra e aloés.
+
+45
+00:03:34,913 --> 00:03:38,199
+A libra romana tinha pouco mais de trezentos gramas.
+
+46
+00:03:38,269 --> 00:03:40,743
+Isso dá uns trinta quilos de especiarias.
+
+47
+00:03:40,813 --> 00:03:44,335
+Uma quantidade enorme, digna do sepultamento de um rei.
+
+48
+00:03:44,634 --> 00:03:47,387
+E sabemos como era esse tecido na vida real.
+
+49
+00:03:47,456 --> 00:03:54,669
+No ano 2000, arqueólogos encontraram num túmulo do vale de Hinom, em Jerusalém, restos de uma mortalha do primeiro século.
+
+50
+00:03:54,739 --> 00:03:57,106
+Era um tecido simples, de linho e lã.
+
+51
+00:03:57,176 --> 00:04:02,575
+É, até hoje, um dos raríssimos pedaços de mortalha dessa época achados em Jerusalém.
+
+52
+00:04:03,675 --> 00:04:07,281
+Enquanto o corpo era preparado, a casa se enchia de gente.
+
+53
+00:04:07,350 --> 00:04:08,973
+E o barulho começava.
+
+54
+00:04:09,272 --> 00:04:12,090
+O luto, no mundo da Bíblia, não era silencioso.
+
+55
+00:04:12,159 --> 00:04:20,778
+Quando Jesus chega à casa de Jairo, cuja filha tinha acabado de morrer, Mateus conta que ele encontrou tocadores de flauta e uma multidão em alvoroço.
+
+56
+00:04:21,079 --> 00:04:23,276
+Esses músicos eram contratados.
+
+57
+00:04:23,346 --> 00:04:29,257
+Havia também as carpideiras, mulheres pagas para chorar, cantar lamentos e puxar o choro da família.
+
+58
+00:04:29,326 --> 00:04:31,588
+A Mishná traz uma regra curiosa:
+
+59
+00:04:31,658 --> 00:04:38,060
+até o mais pobre de Israel deveria contratar, para o enterro da esposa, no mínimo duas flautas e uma carpideira.
+
+60
+00:04:38,360 --> 00:04:40,962
+A família mostrava a dor no próprio corpo.
+
+61
+00:04:41,033 --> 00:04:45,364
+Rasgava a roupa, como Jacó fez ao receber a notícia da morte de José.
+
+62
+00:04:45,435 --> 00:04:50,085
+Cobria a cabeça, sentava no chão, deixava de lado o perfume e os enfeites.
+
+63
+00:04:50,386 --> 00:04:52,092
+Depois, vinha o cortejo.
+
+64
+00:04:52,163 --> 00:04:57,859
+O corpo, já envolvido no linho, era carregado num esquife, uma espécie de padiola aberta, sem caixão.
+
+65
+00:04:57,930 --> 00:05:01,215
+Lucas descreve um desses cortejos na cidade de Naim:
+
+66
+00:05:01,286 --> 00:05:07,644
+o filho único de uma viúva sendo levado para fora da cidade, com uma grande multidão acompanhando a mãe.
+
+67
+00:05:07,944 --> 00:05:09,437
+Repare na expressão:
+
+68
+00:05:09,507 --> 00:05:11,086
+para fora da cidade.
+
+69
+00:05:11,156 --> 00:05:14,336
+Os mortos não eram enterrados dentro das muralhas.
+
+70
+00:05:14,406 --> 00:05:21,510
+A Mishná diz que um túmulo devia ficar a pelo menos cinquenta côvados da cidade, algo em torno de vinte e cinco metros.
+
+71
+00:05:21,581 --> 00:05:26,360
+Por isso, as colinas ao redor de Jerusalém estão cheias de túmulos até hoje.
+
+72
+00:05:27,461 --> 00:05:29,082
+E que túmulo era esse?
+
+73
+00:05:29,153 --> 00:05:33,120
+Para a maioria das famílias com alguma posse, não era uma cova na terra.
+
+74
+00:05:33,190 --> 00:05:39,271
+Era uma pequena caverna escavada na rocha calcária, que pertencia à família e era usada por gerações.
+
+75
+00:05:39,572 --> 00:05:45,204
+A entrada era baixa e estreita, muitas vezes tão baixa que era preciso se abaixar para entrar.
+
+76
+00:05:45,274 --> 00:05:48,538
+João conta exatamente isso na manhã da ressurreição:
+
+77
+00:05:48,608 --> 00:05:51,810
+o discípulo se abaixa para olhar para dentro do túmulo.
+
+78
+00:05:52,110 --> 00:05:56,632
+Lá dentro havia uma câmara quadrada, às vezes com um banco escavado em volta.
+
+79
+00:05:56,702 --> 00:06:03,892
+Nas paredes, os arqueólogos encontram nichos compridos e estreitos, do tamanho de um corpo, que avançam para dentro da rocha.
+
+80
+00:06:03,963 --> 00:06:06,118
+Em hebraico, eles se chamam kokhim.
+
+81
+00:06:06,418 --> 00:06:12,306
+O morto era colocado num desses nichos, ou deitado sobre um banco escavado sob um arco na parede.
+
+82
+00:06:12,377 --> 00:06:17,988
+E ali ficava, envolto no linho, junto com os pais, os avós e os irmãos que tinham morrido antes.
+
+83
+00:06:18,288 --> 00:06:22,064
+É daí que vem uma expressão que se repete no Antigo Testamento:
+
+84
+00:06:22,134 --> 00:06:24,332
+fulano foi reunido aos seus pais.
+
+85
+00:06:24,403 --> 00:06:25,960
+Era quase literal.
+
+86
+00:06:26,031 --> 00:06:30,426
+A pessoa ia, de fato, para o mesmo lugar onde estavam os seus antepassados.
+
+87
+00:06:30,726 --> 00:06:32,882
+Os mais pobres não tinham isso.
+
+88
+00:06:32,951 --> 00:06:35,554
+Eram enterrados em covas simples, na terra.
+
+89
+00:06:35,625 --> 00:06:41,342
+E os estrangeiros sem família em Jerusalém podiam ser sepultados num campo comprado para isso.
+
+90
+00:06:41,413 --> 00:06:49,050
+Mateus conta que, com as trinta moedas devolvidas por Judas, os sacerdotes compraram o campo do oleiro, para sepultar estrangeiros.
+
+91
+00:06:49,350 --> 00:06:52,764
+Por isso o detalhe do túmulo de Jesus chama tanto a atenção.
+
+92
+00:06:52,834 --> 00:06:57,955
+Mateus diz que era o túmulo novo de José de Arimateia, um homem rico, escavado na rocha.
+
+93
+00:06:58,026 --> 00:07:02,207
+Lucas e João acrescentam que ninguém tinha sido colocado ali ainda.
+
+94
+00:07:02,278 --> 00:07:09,275
+Um condenado à cruz, sem túmulo de família em Jerusalém, foi sepultado no túmulo particular de um membro do conselho.
+
+95
+00:07:10,375 --> 00:07:12,296
+Agora vamos falar da pedra.
+
+96
+00:07:12,367 --> 00:07:19,214
+Nos quadros e nos filmes, a pedra do túmulo de Jesus é sempre uma roda enorme, que corre num trilho escavado na rocha.
+
+97
+00:07:19,285 --> 00:07:22,698
+Mas a arqueologia mostra que esse tipo de pedra era raro.
+
+98
+00:07:22,999 --> 00:07:30,764
+O arqueólogo israelense Amos Kloner estudou mais de novecentos túmulos do período do Segundo Templo em Jerusalém e arredores.
+
+99
+00:07:30,834 --> 00:07:32,819
+Quantos tinham pedra redonda?
+
+100
+00:07:32,889 --> 00:07:33,892
+Só quatro.
+
+101
+00:07:33,963 --> 00:07:39,638
+E todos pertenciam a famílias muito ricas, como o túmulo atribuído à família do rei Herodes.
+
+102
+00:07:39,939 --> 00:07:45,570
+Nos outros, a entrada era fechada por uma pedra quadrada, encaixada na abertura como uma rolha.
+
+103
+00:07:45,641 --> 00:07:51,274
+Ela tinha um lado mais largo que ficava para fora, e um lado mais estreito que entrava no buraco.
+
+104
+00:07:51,574 --> 00:07:55,328
+Então os evangelhos erraram ao dizer que a pedra foi rolada?
+
+105
+00:07:55,399 --> 00:07:57,042
+Não necessariamente.
+
+106
+00:07:57,112 --> 00:08:03,406
+Kloner lembra que a palavra grega usada também serve para uma pedra que é arrastada, girada ou empurrada.
+
+107
+00:08:03,476 --> 00:08:09,706
+E, se José de Arimateia era rico, o túmulo dele poderia ser justamente um desses raros com pedra redonda.
+
+108
+00:08:10,007 --> 00:08:11,394
+E quanto pesava?
+
+109
+00:08:11,463 --> 00:08:16,456
+As pedras redondas que sobreviveram têm entre um metro e um metro e meio de diâmetro.
+
+110
+00:08:16,526 --> 00:08:24,250
+Com a densidade do calcário, uma pedra assim pesaria, numa estimativa simples, de oitocentos quilos a mais de uma tonelada e meia.
+
+111
+00:08:24,319 --> 00:08:27,733
+Rolar uma dessas para o lugar já exigia vários homens.
+
+112
+00:08:27,803 --> 00:08:34,054
+Ela descia com mais facilidade, porque o trilho costumava ser inclinado, mas tirá-la era bem mais difícil.
+
+113
+00:08:34,355 --> 00:08:39,966
+É por isso que faz tanto sentido a pergunta das mulheres no domingo de manhã, registrada por Marcos:
+
+114
+00:08:40,037 --> 00:08:43,471
+quem vai remover a pedra da entrada do túmulo para nós?
+
+115
+00:08:43,542 --> 00:08:46,230
+Elas sabiam que sozinhas não conseguiriam.
+
+116
+00:08:47,331 --> 00:08:51,170
+Mas a história do sepultamento não terminava no dia do enterro.
+
+117
+00:08:51,240 --> 00:08:55,209
+Ela tinha uma segunda parte, que acontecia cerca de um ano depois.
+
+118
+00:08:55,509 --> 00:08:59,030
+Durante esse tempo, o corpo se decompunha no nicho da rocha.
+
+119
+00:08:59,100 --> 00:09:06,653
+Depois, a família voltava ao túmulo, recolhia os ossos com cuidado e os colocava numa caixa de pedra calcária, chamada ossuário.
+
+120
+00:09:06,722 --> 00:09:10,286
+Assim, o nicho ficava livre para o próximo morto da família.
+
+121
+00:09:10,586 --> 00:09:14,682
+Um texto judaico antigo sobre o luto guarda a fala de um pai ao filho:
+
+122
+00:09:14,753 --> 00:09:20,514
+me enterre primeiro numa cova, e depois de um tempo recolha os meus ossos e coloque-os num ossuário.
+
+123
+00:09:20,583 --> 00:09:30,249
+Em Jerusalém, esse costume aparece justamente na época de Herodes e de Jesus, e praticamente desaparece depois da destruição da cidade, no ano 70.
+
+124
+00:09:30,548 --> 00:09:34,068
+Os arqueólogos já encontraram milhares desses ossuários.
+
+125
+00:09:34,139 --> 00:09:38,471
+Muitos têm o nome do morto riscado na pedra, em hebraico, aramaico ou grego.
+
+126
+00:09:38,541 --> 00:09:40,610
+E alguns trouxeram surpresas.
+
+127
+00:09:40,910 --> 00:09:50,276
+Em 1990, operários que faziam obras num parque ao sul da cidade velha de Jerusalém encontraram uma câmara funerária com doze ossuários.
+
+128
+00:09:50,346 --> 00:09:53,290
+Um deles, ricamente decorado, tinha a inscrição:
+
+129
+00:09:53,360 --> 00:09:56,198
+Yehosef bar Qayafa, José, filho de Caifás.
+
+130
+00:09:56,269 --> 00:10:03,586
+Muitos estudiosos identificam essa caixa com a família do sumo sacerdote que, segundo os evangelhos, interrogou Jesus.
+
+131
+00:10:03,657 --> 00:10:07,049
+A identificação é bastante aceita, mas não é unânime.
+
+132
+00:10:07,120 --> 00:10:09,552
+Hoje o ossuário está no Museu de Israel.
+
+133
+00:10:09,852 --> 00:10:12,476
+Outro achado é ainda mais impressionante.
+
+134
+00:10:12,547 --> 00:10:19,096
+Em 1968, num túmulo ao norte de Jerusalém, apareceu o ossuário de um homem chamado Yehohanan.
+
+135
+00:10:19,167 --> 00:10:27,403
+O osso do calcanhar dele ainda estava atravessado por um prego de ferro de mais de onze centímetros, com um pedaço de madeira preso na ponta.
+
+136
+00:10:27,472 --> 00:10:30,288
+Era um homem crucificado no primeiro século.
+
+137
+00:10:30,589 --> 00:10:32,914
+Esse calcanhar mostra duas coisas.
+
+138
+00:10:32,985 --> 00:10:35,780
+Primeiro, como a crucificação romana era feita.
+
+139
+00:10:35,850 --> 00:10:43,338
+Segundo, que um crucificado podia, sim, ser entregue à família e receber um sepultamento judaico normal, num túmulo de família.
+
+140
+00:10:43,408 --> 00:10:47,293
+Exatamente o que os evangelhos contam que aconteceu com Jesus.
+
+141
+00:10:48,393 --> 00:10:51,507
+Os túmulos também influenciavam a vida dos vivos.
+
+142
+00:10:51,577 --> 00:10:57,658
+Lembra da regra de Números, de que quem entrava em contato com um morto ficava impuro por sete dias?
+
+143
+00:10:57,729 --> 00:11:01,654
+Isso valia também para quem tocava num túmulo ou numa sepultura.
+
+144
+00:11:01,955 --> 00:11:04,942
+Para quem ia ao templo, isso era um problema sério.
+
+145
+00:11:05,011 --> 00:11:12,245
+Imagine um peregrino que chega a Jerusalém para a Páscoa e, sem saber, pisa sobre uma cova escondida na beira do caminho.
+
+146
+00:11:12,315 --> 00:11:15,750
+Ele ficaria impuro e não poderia participar da festa.
+
+147
+00:11:16,049 --> 00:11:18,355
+A solução era marcar as sepulturas.
+
+148
+00:11:18,424 --> 00:11:26,083
+A Mishná diz que, no mês de adar, cerca de um mês antes da Páscoa, os túmulos eram marcados para que ninguém se contaminasse sem querer.
+
+149
+00:11:26,153 --> 00:11:28,948
+E outra passagem da própria Mishná diz como:
+
+150
+00:11:29,019 --> 00:11:30,918
+com cal diluída em água.
+
+151
+00:11:31,219 --> 00:11:36,297
+Agora leia de novo uma frase famosa de Jesus, no capítulo 23 de Mateus:
+
+152
+00:11:36,366 --> 00:11:43,876
+vocês são como sepulcros caiados, que por fora parecem bonitos, mas por dentro estão cheios de ossos de mortos e de toda impureza.
+
+153
+00:11:44,177 --> 00:11:47,184
+Quem ouvia sabia exatamente do que ele falava.
+
+154
+00:11:47,254 --> 00:11:56,300
+Mateus coloca essa fala nos dias antes da Páscoa, quando os túmulos tinham sido pintados de branco havia pouco, e a tinta servia justamente para avisar:
+
+155
+00:11:56,370 --> 00:11:58,654
+aqui dentro há morte, não chegue perto.
+
+156
+00:11:59,754 --> 00:12:04,490
+Com tudo isso em mente, voltemos à história de Lázaro, no capítulo 11 de João.
+
+157
+00:12:04,561 --> 00:12:06,502
+Ela fica muito mais clara.
+
+158
+00:12:06,802 --> 00:12:11,071
+Lázaro morre em Betânia, uma aldeia a uns três quilômetros de Jerusalém.
+
+159
+00:12:11,140 --> 00:12:18,096
+Como mandava o costume, é enterrado no mesmo dia, num túmulo que João descreve como uma gruta com uma pedra na entrada.
+
+160
+00:12:18,395 --> 00:12:20,188
+A casa enche de gente.
+
+161
+00:12:20,259 --> 00:12:24,184
+João diz que muitos judeus tinham vindo consolar Marta e Maria.
+
+162
+00:12:24,254 --> 00:12:36,606
+Esse é o período de luto mais intenso, de sete dias, que já aparece em Gênesis, quando José chora o pai por sete dias, e no livro de Jó, quando os amigos se sentam no chão com ele durante sete dias e sete noites.
+
+163
+00:12:36,907 --> 00:12:40,704
+Jesus chega quando Lázaro já está no túmulo havia quatro dias.
+
+164
+00:12:40,774 --> 00:12:42,866
+Ele pede que tirem a pedra.
+
+165
+00:12:42,937 --> 00:12:44,495
+E Marta responde:
+
+166
+00:12:44,565 --> 00:12:47,764
+Senhor, ele já cheira mal, porque já faz quatro dias.
+
+167
+00:12:48,065 --> 00:12:50,284
+Marta não está sendo indelicada.
+
+168
+00:12:50,355 --> 00:12:57,715
+Ela sabe o que acontece com um corpo depois de quatro dias numa caverna quente, e sabe que as especiarias não seguram isso.
+
+169
+00:12:58,014 --> 00:13:03,562
+Alguns comentaristas lembram de uma crença registrada em textos judaicos posteriores:
+
+170
+00:13:03,633 --> 00:13:09,712
+a de que a alma ficaria perto do corpo por três dias, e que só depois disso a morte seria definitiva.
+
+171
+00:13:09,783 --> 00:13:17,336
+Esses textos são mais tardios do que os evangelhos, então não dá para ter certeza de que essa ideia circulava no tempo de Jesus.
+
+172
+00:13:17,405 --> 00:13:21,951
+Mas, se circulava, o quarto dia era o momento em que ninguém mais tinha esperança.
+
+173
+00:13:22,250 --> 00:13:24,448
+E é exatamente aí que Jesus chama:
+
+174
+00:13:24,519 --> 00:13:26,204
+Lázaro, vem para fora.
+
+175
+00:13:26,274 --> 00:13:31,544
+E ele sai, com as mãos e os pés ainda presos nas faixas de linho, e o rosto envolvido no pano.
+
+176
+00:13:31,615 --> 00:13:34,516
+Tal como um morto era preparado naquela época.
+
+177
+00:13:35,616 --> 00:13:38,454
+E chegamos ao enterro mais famoso da história.
+
+178
+00:13:38,524 --> 00:13:44,092
+Jesus morre numa sexta-feira à tarde, pouco antes do início do sábado, que começava ao pôr do sol.
+
+179
+00:13:44,163 --> 00:13:46,851
+Não havia tempo para fazer tudo com calma.
+
+180
+00:13:47,152 --> 00:13:52,293
+José de Arimateia pede o corpo a Pilatos, envolve-o no linho e o coloca no túmulo novo.
+
+181
+00:13:52,364 --> 00:13:54,605
+Nicodemos traz as especiarias.
+
+182
+00:13:54,674 --> 00:13:56,722
+A pedra é colocada na entrada.
+
+183
+00:13:56,793 --> 00:14:01,060
+Tudo às pressas, porque no sábado esse tipo de trabalho não era permitido.
+
+184
+00:14:01,360 --> 00:14:07,376
+Lucas conta que as mulheres que tinham vindo da Galileia observaram o túmulo e como o corpo foi colocado.
+
+185
+00:14:07,447 --> 00:14:13,442
+Depois voltaram, prepararam especiarias e perfumes, e descansaram no sábado, conforme o mandamento.
+
+186
+00:14:13,743 --> 00:14:18,286
+No domingo, logo ao amanhecer, elas voltam ao túmulo com as especiarias.
+
+187
+00:14:18,356 --> 00:14:21,280
+Agora você sabe o que elas pretendiam fazer:
+
+188
+00:14:21,350 --> 00:14:26,215
+terminar, com carinho, o preparo do corpo que tinha ficado incompleto na sexta-feira.
+
+189
+00:14:26,284 --> 00:14:29,506
+E sabe também por que estavam preocupadas com a pedra.
+
+190
+00:14:29,807 --> 00:14:35,034
+O que elas encontraram, segundo os quatro evangelhos, foi a pedra removida e o túmulo vazio.
+
+191
+00:14:35,105 --> 00:14:38,817
+Lucas e João registram que os panos de linho ficaram lá dentro.
+
+192
+00:14:39,116 --> 00:14:43,832
+Seja qual for a sua fé, conhecer esses costumes muda a forma de ler esses textos.
+
+193
+00:14:43,903 --> 00:14:51,134
+Cada detalhe, o linho, as especiarias, a pedra, o quarto dia, era algo que os primeiros leitores viam com os próprios olhos.
+
+194
+00:14:52,235 --> 00:14:58,316
+Neste Dia de Finados, vale lembrar que, para as famílias da Judeia, enterrar um morto era um dever de amor.
+
+195
+00:14:58,385 --> 00:15:04,274
+Lavar, ungir, envolver no linho, chorar junto e voltar um ano depois para recolher os ossos com cuidado.
+
+196
+00:15:04,345 --> 00:15:06,478
+Ninguém era deixado sozinho.
+
+197
+00:15:06,778 --> 00:15:12,475
+Se você gostou de entender o mundo da Bíblia dessa forma, se inscreva no canal No Tempo da Bíblia.
+
+198
+00:15:12,544 --> 00:15:20,204
+Toda semana tem um vídeo novo sobre como as pessoas viviam na época, e outro que mergulha no contexto de um salmo ou de uma passagem.
+
+199
+00:15:20,504 --> 00:15:26,179
+Na quinta-feira, vamos ler o Salmo 23 verso a verso, com os olhos de um pastor da Judeia:
+
+200
+00:15:26,250 --> 00:15:28,596
+o vale, a vara, o cajado e a mesa.
+
+201
+00:15:28,667 --> 00:15:29,798
+Te vejo lá.
+
