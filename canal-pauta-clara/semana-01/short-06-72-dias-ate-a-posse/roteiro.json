@@ -1,0 +1,202 @@
+{
+ "tema": "papel",
+ "marca": "PAUTA CLARA",
+ "decoracao": "pauta",
+ "cores": {
+  "bg": "#eef2f6",
+  "bg2": "#d3dbe5",
+  "ink": "#0f1b2d",
+  "sub": "#4a5568",
+  "acc": "#0a7e78",
+  "card": "#ffffff",
+  "cardh": "#f0f4f8",
+  "line": "#d3dbe5",
+  "muted": "#6b7a8f"
+ },
+ "simbolo": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 96 96\"><rect x=\"4\" y=\"4\" width=\"88\" height=\"88\" rx=\"22\" fill=\"var(--ink)\"/><rect x=\"22\" y=\"28\" width=\"52\" height=\"8\" rx=\"4\" fill=\"#fff\"/><rect x=\"22\" y=\"44\" width=\"52\" height=\"8\" rx=\"4\" fill=\"#fff\"/><rect x=\"22\" y=\"60\" width=\"34\" height=\"8\" rx=\"4\" fill=\"var(--acc)\"/></svg>",
+ "girarMarca": false,
+ "aviso": "voz sintética · fontes na descrição",
+ "audio": "narracao.wav",
+ "batidas": [
+  {
+   "b": 4.966,
+   "apoio": [
+    0.15,
+    "do 2º turno à posse:"
+   ],
+   "titulo": [
+    [
+     0.55,
+     "*72 dias*"
+    ]
+   ]
+  },
+  {
+   "b": 7.485,
+   "apoio": [
+    4.866,
+    "25 de outubro:"
+   ],
+   "titulo": [
+    [
+     5.266,
+     "*eleição*"
+    ]
+   ]
+  },
+  {
+   "b": 12.798,
+   "apoio": [
+    7.385,
+    "14 de novembro:"
+   ],
+   "titulo": [
+    [
+     7.785,
+     "*contas*"
+    ]
+   ]
+  },
+  {
+   "b": 16.341,
+   "apoio": [
+    12.698,
+    "até 18 de dezembro:"
+   ],
+   "titulo": [
+    [
+     13.098,
+     "*diplomação*"
+    ]
+   ]
+  },
+  {
+   "b": 21.505,
+   "apoio": [
+    16.241,
+    "5 e 6 de janeiro:"
+   ],
+   "titulo": [
+    [
+     16.641,
+     "*posses*"
+    ]
+   ]
+  },
+  {
+   "b": 24.813,
+   "apoio": [
+    21.405,
+    "1º de fevereiro:"
+   ],
+   "titulo": [
+    [
+     21.805,
+     "novo"
+    ],
+    [
+     22.555,
+     "*Congresso*"
+    ]
+   ]
+  },
+  {
+   "b": 99,
+   "apoio": [
+    24.713,
+    "cada etapa explicada no"
+   ],
+   "titulo": [
+    [
+     25.113,
+     "vídeo"
+    ],
+    [
+     25.863,
+     "*completo*"
+    ]
+   ]
+  }
+ ],
+ "cartao": {
+  "arquivo": [
+   [
+    0.3,
+    "calendario-2026-2027.txt"
+   ]
+  ],
+  "etiqueta": [
+   [
+    0.3,
+    "● pós-eleição"
+   ]
+  ],
+  "rotulo": [
+   [
+    0.3,
+    "CONTAGEM"
+   ],
+   [
+    5.016,
+    "LINHA DO TEMPO"
+   ]
+  ],
+  "paineis": [
+   {
+    "tipo": "numero",
+    "a": 0.7,
+    "b": 5.016,
+    "de": 0,
+    "para": 72,
+    "conta": [
+     1.1,
+     3.3
+    ],
+    "legenda": "DIAS ATÉ A POSSE"
+   },
+   {
+    "tipo": "lista",
+    "a": 5.016,
+    "b": 24.863,
+    "itens": [
+     {
+      "t": 5.216,
+      "texto": "*25/10* · eleição"
+     },
+     {
+      "t": 7.735,
+      "texto": "*14/11* · prestação de contas"
+     },
+     {
+      "t": 13.048,
+      "texto": "*18/12* · diplomação"
+     },
+     {
+      "t": 16.591,
+      "texto": "*5/1 e 6/1* · posses"
+     },
+     {
+      "t": 21.755,
+      "texto": "*1/2* · novo Congresso"
+     }
+    ]
+   }
+  ],
+  "diario": [
+   [
+    0.8,
+    "25/10/2026 → 05/01/2027"
+   ]
+  ],
+  "a": 0.7,
+  "b": 24.863
+ },
+ "chamada": {
+  "a": 24.863,
+  "pilulas": [
+   "Hoje: vídeo completo",
+   "Pauta Clara"
+  ],
+  "seta": false
+ }
+}

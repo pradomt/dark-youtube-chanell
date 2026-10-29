@@ -1,0 +1,275 @@
+{
+ "tema": "papel",
+ "marca": "PAUTA CLARA",
+ "decoracao": "pauta",
+ "cores": {
+  "bg": "#eef2f6",
+  "bg2": "#d3dbe5",
+  "ink": "#0f1b2d",
+  "sub": "#4a5568",
+  "acc": "#0a7e78",
+  "card": "#ffffff",
+  "cardh": "#f0f4f8",
+  "line": "#d3dbe5",
+  "muted": "#6b7a8f"
+ },
+ "simbolo": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 96 96\"><rect x=\"4\" y=\"4\" width=\"88\" height=\"88\" rx=\"22\" fill=\"var(--ink)\"/><rect x=\"22\" y=\"28\" width=\"52\" height=\"8\" rx=\"4\" fill=\"#fff\"/><rect x=\"22\" y=\"44\" width=\"52\" height=\"8\" rx=\"4\" fill=\"#fff\"/><rect x=\"22\" y=\"60\" width=\"34\" height=\"8\" rx=\"4\" fill=\"var(--acc)\"/></svg>",
+ "girarMarca": false,
+ "aviso": "voz sintética · fontes na descrição",
+ "audio": "narracao.wav",
+ "batidas": [
+  {
+   "b": 3.878,
+   "apoio": [
+    0.15,
+    "ganhar a eleição"
+   ],
+   "titulo": [
+    [
+     0.55,
+     "*não basta*"
+    ]
+   ]
+  },
+  {
+   "b": 5.885,
+   "apoio": [
+    3.778,
+    "antes, vem a"
+   ],
+   "titulo": [
+    [
+     4.178,
+     "*diplomação*"
+    ]
+   ]
+  },
+  {
+   "b": 12.606,
+   "apoio": [
+    5.785,
+    "o eleito recebe um"
+   ],
+   "titulo": [
+    [
+     6.185,
+     "*diploma*"
+    ]
+   ]
+  },
+  {
+   "b": 15.125,
+   "apoio": [
+    12.506,
+    "sem diploma,"
+   ],
+   "titulo": [
+    [
+     12.906,
+     "não há"
+    ],
+    [
+     13.572,
+     "*posse*"
+    ]
+   ]
+  },
+  {
+   "b": 19.862,
+   "apoio": [
+    15.025,
+    "presidente e vice:"
+   ],
+   "titulo": [
+    [
+     15.425,
+     "*TSE*"
+    ]
+   ]
+  },
+  {
+   "b": 26.135,
+   "apoio": [
+    19.762,
+    "governadores e parlamentares:"
+   ],
+   "titulo": [
+    [
+     20.162,
+     "*TREs*"
+    ]
+   ]
+  },
+  {
+   "b": 32.046,
+   "apoio": [
+    26.035,
+    "prazo final:"
+   ],
+   "titulo": [
+    [
+     26.435,
+     "*18 de*"
+    ],
+    [
+     27.185,
+     "*dezembro*"
+    ]
+   ]
+  },
+  {
+   "b": 38.063,
+   "apoio": [
+    31.946,
+    "e é dela que contam os"
+   ],
+   "titulo": [
+    [
+     32.346,
+     "prazos de"
+    ],
+    [
+     33.096,
+     "*contestação*"
+    ]
+   ]
+  },
+  {
+   "b": 99,
+   "apoio": [
+    37.963,
+    "sexta, no Pauta Clara:"
+   ],
+   "titulo": [
+    [
+     38.363,
+     "os"
+    ],
+    [
+     39.113,
+     "*prazos*"
+    ]
+   ]
+  }
+ ],
+ "cartao": {
+  "arquivo": [
+   [
+    0.3,
+    "codigo-eleitoral-art215.txt"
+   ],
+   [
+    26.185,
+    "dezembro-2026.cal"
+   ]
+  ],
+  "etiqueta": [
+   [
+    0.3,
+    "● diplomação"
+   ]
+  ],
+  "rotulo": [
+   [
+    0.3,
+    "DA URNA À POSSE"
+   ],
+   [
+    15.175,
+    "QUEM ENTREGA O DIPLOMA"
+   ],
+   [
+    26.185,
+    "CALENDÁRIO TSE 2026"
+   ]
+  ],
+  "paineis": [
+   {
+    "tipo": "lista",
+    "a": 0.7,
+    "b": 15.175,
+    "itens": [
+     {
+      "t": 0.9,
+      "texto": "*1* · eleição",
+      "nota": "25/10 · 2º turno"
+     },
+     {
+      "t": 4.328,
+      "texto": "*2* · diplomação",
+      "nota": "Justiça Eleitoral"
+     },
+     {
+      "t": 12.956,
+      "texto": "*3* · posse",
+      "nota": "5/1 · presidente"
+     }
+    ]
+   },
+   {
+    "tipo": "lista",
+    "a": 15.175,
+    "b": 26.185,
+    "itens": [
+     {
+      "t": 15.575,
+      "texto": "presidente e vice → *TSE*",
+      "nota": "Tribunal Superior Eleitoral"
+     },
+     {
+      "t": 20.512,
+      "texto": "estados e Congresso → *TREs*",
+      "nota": "um tribunal por estado"
+     }
+    ]
+   },
+   {
+    "tipo": "extra",
+    "a": 26.185,
+    "b": 38.113
+   }
+  ],
+  "diario": [
+   [
+    6.535,
+    "✓ diploma = prova de que venceu"
+   ],
+   [
+    15.675,
+    "§ Código Eleitoral · art. 215"
+   ],
+   [
+    26.685,
+    "Res. TSE 23.760/2026 · calendário"
+   ]
+  ],
+  "a": 0.7,
+  "b": 38.113
+ },
+ "chamada": {
+  "a": 38.113,
+  "pilulas": [
+   "Sexta: os prazos",
+   "Pauta Clara"
+  ],
+  "seta": false
+ },
+ "calendario": [
+  {
+   "a": 26.185,
+   "b": 38.113,
+   "mes": "DEZEMBRO 2026",
+   "inicio": 2,
+   "dias": 31,
+   "marcas": [
+    {
+     "dia": 18,
+     "t": 27.385,
+     "tipo": "circulo",
+     "nota": "18/12 · prazo final"
+    }
+   ]
+  }
+ ],
+ "extra": "/tmp/claude-0/pc/ferramentas/calendario.js"
+}

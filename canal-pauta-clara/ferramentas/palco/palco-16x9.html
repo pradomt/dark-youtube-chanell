@@ -1,0 +1,158 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Palco horizontal (1920x1080) para os vídeos longos do Pauta Clara. Mesma linguagem do Short "palco único":
+     título grande à esquerda, janela de app à direita, legenda da frase atual e linha do tempo das etapas embaixo.
+     Conteúdo em window.__ROTEIRO (gerado por longo_semana01.py). -->
+<style>
+@font-face{font-family:M;font-weight:500;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff2)}
+@font-face{font-family:M;font-weight:800;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:M;font-weight:900;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+@font-face{font-family:J;font-weight:500;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-500-normal.woff2)}
+@font-face{font-family:J;font-weight:700;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-700-normal.woff2)}
+@font-face{font-family:J;font-weight:800;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-800-normal.woff2)}
+:root{--bg:#eef2f6;--bg2:#d3dbe5;--ink:#0f1b2d;--sub:#4a5568;--acc:#0a7e78;--card:#fff;--cardh:#f0f4f8;--line:#d3dbe5;--muted:#6b7a8f}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden}
+body{background:radial-gradient(ellipse 70% 70% at 40% 45%,var(--bg) 0%,var(--bg) 45%,var(--bg2) 100%);font-family:M,sans-serif;color:var(--ink);position:relative}
+body::before{content:'';position:absolute;inset:0;opacity:.6;
+  background:linear-gradient(to right,transparent 118px,var(--acc) 118px 121px,transparent 121px),repeating-linear-gradient(to bottom,transparent 0 52px,var(--line) 52px 54px)}
+.abs{position:absolute}
+#topo{left:170px;top:52px;display:flex;align-items:center;gap:18px;font:700 24px J,monospace;letter-spacing:6px;color:var(--muted)}
+#chip{right:120px;top:56px;font:700 22px J,monospace;letter-spacing:3px;color:var(--acc);padding:10px 22px;border:3px solid var(--acc);border-radius:40px;background:var(--card)}
+.bloco{left:170px;width:770px;top:210px}
+.lead{font-weight:500;font-size:40px;color:var(--sub);line-height:1.15}
+.tit{font-weight:900;font-size:96px;line-height:1.02;letter-spacing:-1px;margin-top:10px}
+.tit em,.it em,.cit em{font-style:normal;color:var(--acc)}
+.w{display:inline-block;white-space:pre}
+#sub{left:170px;width:770px;top:700px;font:500 29px/1.45 M,sans-serif;color:var(--sub)}
+#card{left:1000px;top:140px;width:800px;height:660px;background:var(--card);border-radius:26px;overflow:hidden;box-shadow:0 26px 60px rgba(0,0,0,.14),0 0 0 1px var(--line)}
+#hd{height:70px;background:var(--cardh);border-bottom:2px solid var(--line);display:flex;align-items:center;padding:0 26px;gap:12px;font-weight:800;font-size:24px}
+#hd i{width:16px;height:16px;border-radius:50%;display:inline-block}
+#hdt{margin-left:14px;flex:1}
+#rot{padding:20px 30px 0;font:700 20px J,monospace;letter-spacing:3px;color:var(--muted)}
+#area{left:24px;top:124px;width:752px;height:510px}
+.painel{position:absolute;inset:0}
+.lista{display:flex;flex-direction:column;gap:14px;padding-top:6px}
+.it{padding:18px 24px;border-radius:14px;background:var(--cardh);border:3px solid transparent;font-weight:800;font-size:32px}
+.it.atual{border-color:var(--acc)}
+.it small{display:block;font:500 20px J,monospace;color:var(--muted);margin-top:4px}
+.lista.densa{gap:9px}.lista.densa .it{padding:11px 22px;font-size:27px}.lista.densa .it small{font-size:18px}
+.numero{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;text-align:center}
+.numero b{font-weight:900;font-size:190px;color:var(--acc);line-height:1}
+.numero span{font:700 24px J,monospace;color:var(--muted);letter-spacing:3px;margin-top:14px;max-width:640px}
+.cit{display:flex;flex-direction:column;justify-content:center;height:100%;padding:0 30px}
+.cit q{font-weight:800;font-size:42px;line-height:1.2;quotes:none}
+.cit span{font:700 22px J,monospace;color:var(--muted);margin-top:26px;letter-spacing:1px}
+.cit:before{content:'';display:block;width:70px;height:8px;border-radius:4px;background:var(--acc);margin-bottom:28px}
+.placar{padding:30px 20px}
+.pl{margin-bottom:46px}
+.pl .nm{display:flex;justify-content:space-between;font-weight:800;font-size:34px;margin-bottom:12px}
+.pl .nm b{font-weight:900;color:var(--ink)}
+.pl .tr{height:34px;border-radius:17px;background:var(--line);overflow:hidden}
+.pl .ch{height:100%;background:var(--ink);border-radius:17px}
+.pl.v .ch{background:var(--acc)}
+.pl small{display:block;font:500 20px J,monospace;color:var(--muted);margin-top:10px}
+.cal{padding:0 30px}
+.cal .mt{font:800 28px J,monospace;letter-spacing:4px;text-align:center;margin-bottom:8px}
+.cal .g{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.cal .h{font:700 18px J,monospace;color:var(--muted)}
+.cd{position:relative;height:50px;line-height:50px;border-radius:12px;font:800 26px M,sans-serif;color:var(--sub)}
+.cd .ri{position:absolute;left:24%;right:24%;top:50%;height:4px;background:var(--ink);transform-origin:left;transform:rotate(-20deg) scaleX(0)}
+.cd .ci{position:absolute;inset:-2px 18px;border:4px solid var(--acc);border-radius:50%;opacity:0}
+.cal .nt{text-align:center;margin-top:10px;font:700 22px J,monospace;color:var(--acc)}
+#linha{left:170px;right:120px;top:880px;height:150px}
+#trilho{position:absolute;left:0;right:0;top:22px;height:6px;border-radius:3px;background:var(--line)}
+#cheio{position:absolute;left:0;top:22px;height:6px;border-radius:3px;background:var(--acc)}
+.no{position:absolute;top:0;width:200px;margin-left:-100px;text-align:center}
+.no i{display:block;margin:10px auto 0;width:26px;height:26px;border-radius:50%;background:var(--card);border:5px solid var(--line);box-sizing:border-box}
+.no b{display:block;font:800 22px J,monospace;color:var(--muted);margin-top:12px}
+.no span{display:block;font:500 19px M,sans-serif;color:var(--muted);margin-top:4px}
+.no.feito i{border-color:var(--acc);background:var(--acc)}
+.no.atual i{border-color:var(--acc);background:var(--card);transform:scale(1.35)}
+.no.atual b,.no.atual span{color:var(--ink)}
+#aviso{right:120px;bottom:22px;font:500 17px J,monospace;color:var(--muted)}
+</style></head>
+<body>
+<div id="topo" class="abs"><span id="simb"></span><span>PAUTA CLARA</span></div>
+<div id="chip" class="abs"></div>
+<div id="blocos"></div>
+<div id="sub" class="abs"></div>
+<div id="card" class="abs">
+  <div id="hd"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span id="hdt"></span></div>
+  <div id="rot"></div>
+  <div id="area" class="abs"></div>
+</div>
+<div id="linha" class="abs"><div id="trilho"></div><div id="cheio"></div></div>
+<div id="aviso" class="abs"></div>
+<script>
+const R = window.__ROTEIRO, $ = id => document.getElementById(id);
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const ease = x => 1 - Math.pow(1 - clamp(x), 3);
+const io = (t, a, b, din = .4, dout = .3) => clamp(Math.min((t - a) / din, (b - t) / dout));
+const blur = (el, k, dy = 14) => { el.style.opacity = k; el.style.filter = `blur(${(1 - k) * 14}px)`; el.style.transform = `translateY(${(1 - k) * dy}px)`; };
+const em = s => s.replace(/\*(.+?)\*/g, '<em>$1</em>');
+$('simb').innerHTML = R.simbolo || ''; $('aviso').textContent = R.aviso || '';
+
+R.batidas.forEach((bt, i) => {
+  const d = document.createElement('div'); d.className = 'bloco abs'; d.id = 'b' + i;
+  d.innerHTML = `<div class="lead">${em(bt.apoio[1])}</div><div class="tit">${bt.titulo.map(w => `<span class="w">${em(w[1])}</span>`).join(' ')}</div>`;
+  $('blocos').appendChild(d);
+});
+
+const PAIN = R.paineis.map((p, i) => {
+  const d = document.createElement('div'); d.className = 'painel';
+  if (p.tipo === 'lista') d.innerHTML = `<div class="lista${p.itens.length > 4 ? ' densa' : ''}">${p.itens.map(it => `<div class="it">${em(it.texto)}${it.nota ? `<small>${it.nota}</small>` : ''}</div>`).join('')}</div>`;
+  if (p.tipo === 'numero') d.innerHTML = `<div class="numero"><b></b><span>${p.legenda || ''}</span></div>`;
+  if (p.tipo === 'citacao') d.innerHTML = `<div class="cit"><q>${em(p.texto)}</q><span>${p.fonte || ''}</span></div>`;
+  if (p.tipo === 'placar') d.innerHTML = `<div class="placar">${p.linhas.map(l => `<div class="pl ${l.v ? 'v' : ''}"><div class="nm"><span>${l.nome}</span><b></b></div><div class="tr"><div class="ch"></div></div><small>${l.nota || ''}</small></div>`).join('')}<div style="font:700 20px J,monospace;color:var(--muted)">${p.fonte || ''}</div></div>`;
+  if (p.tipo === 'calendario') {
+    let h = `<div class="cal"><div class="mt">${p.mes}</div><div class="g">` + ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'].map(s => `<div class="h">${s}</div>`).join('');
+    for (let k = 0; k < p.inicio; k++) h += '<div></div>';
+    for (let n = 1; n <= p.dias; n++) h += `<div class="cd" data-d="${n}">${n}<i class="ri"></i><i class="ci"></i></div>`;
+    d.innerHTML = h + '</div><div class="nt"></div></div>';
+  }
+  $('area').appendChild(d); return { p, d };
+});
+
+const NOS = R.etapas.map((e, i) => {
+  const d = document.createElement('div'); d.className = 'no'; d.style.left = (i / (R.etapas.length - 1) * 100) + '%';
+  d.innerHTML = `<i></i><b>${e[0]}</b><span>${e[1]}</span>`; $('linha').appendChild(d); return d;
+});
+const atual = (lst, t, pad = '') => { let v = pad; for (const [a, x] of lst || []) if (t >= a) v = x; return v; };
+
+function render(t) {
+  R.batidas.forEach((bt, i) => {
+    const el = $('b' + i), on = t >= bt.apoio[0] - .4 && t < bt.b + .3;
+    el.style.display = on ? 'block' : 'none'; if (!on) return;
+    const out = clamp((bt.b - t) / .3);
+    blur(el.querySelector('.lead'), Math.min(io(t, bt.apoio[0], 1e9), out));
+    el.querySelectorAll('.w').forEach((w, k) => blur(w, Math.min(io(t, bt.titulo[k][0], 1e9, .3), out), 20));
+  });
+  // legenda: frase atual
+  const fr = R.frases.find(f => t >= f[0] && t < f[1] + .25);
+  $('sub').textContent = fr ? fr[2] : ''; $('sub').style.opacity = fr ? clamp(Math.min((t - fr[0]) / .2, (fr[1] + .25 - t) / .2)) : 0;
+  $('hdt').textContent = atual(R.arquivo, t); $('rot').textContent = atual(R.rotulo, t); $('chip').textContent = atual(R.chip, t);
+  blur($('card'), io(t, R.cartao[0], R.cartao[1], .6, .6), 30);
+  PAIN.forEach(({ p, d }) => {
+    const k = io(t, p.a, p.b, .45, .35); d.style.opacity = k; d.style.filter = `blur(${(1 - k) * 10}px)`; d.style.display = k > 0 ? 'block' : 'none';
+    if (k <= 0) return;
+    if (p.tipo === 'lista') d.querySelectorAll('.it').forEach((it, j) => { const ti = p.itens[j].t, nx = p.itens[j + 1]?.t ?? 1e9;
+      blur(it, io(t, ti, 1e9, .35), 16); it.classList.toggle('atual', t >= ti && t < nx); });
+    if (p.tipo === 'numero') d.querySelector('b').textContent = (p.prefixo || '') + Math.round(p.de + (p.para - p.de) * ease((t - p.conta[0]) / (p.conta[1] - p.conta[0]))) + (p.sufixo || '');
+    if (p.tipo === 'placar') d.querySelectorAll('.pl').forEach((el, j) => { const l = p.linhas[j], q = ease((t - p.conta[0]) / (p.conta[1] - p.conta[0]));
+      el.querySelector('.ch').style.width = (l.pct * q) + '%'; el.querySelector('b').textContent = (l.pct * q).toFixed(2).replace('.', ',') + '%'; });
+    if (p.tipo === 'calendario') { let nota = '';
+      for (const mk of p.marcas) { const c = d.querySelector(`[data-d="${mk.dia}"]`), q = ease((t - mk.t) / .45);
+        if (t >= mk.t && mk.nota) nota = mk.nota;
+        if (mk.tipo === 'risco') { c.querySelector('.ri').style.transform = `rotate(-20deg) scaleX(${q})`; c.style.opacity = 1 - .45 * q; }
+        if (mk.tipo === 'circulo') { const ci = c.querySelector('.ci'); ci.style.opacity = q; ci.style.transform = `scale(${1.6 - .6 * q})`; }
+        if (mk.tipo === 'cheio') { c.style.background = q > 0 ? 'var(--acc)' : ''; c.style.color = q > 0 ? '#fff' : ''; } }
+      d.querySelector('.nt').textContent = nota; }
+  });
+  // linha do tempo: etapa atual
+  const e = atual(R.etapaAtual, t, -1), n = R.etapas.length;
+  NOS.forEach((d, i) => { d.classList.toggle('feito', e >= 0 && i < e || e === 99); d.classList.toggle('atual', i === e); });
+  $('cheio').style.width = (e === 99 ? 100 : e < 0 ? 0 : e / (n - 1) * 100) + '%';
+  $('linha').style.opacity = io(t, 2, R.duracao + 9, 1, 1);
+}
+window.render = render;
+</script></body></html>

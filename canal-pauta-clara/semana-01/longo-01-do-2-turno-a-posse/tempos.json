@@ -1,0 +1,765 @@
+[
+ {
+  "sec": "01-abertura",
+  "para": 0,
+  "start": 0.0,
+  "end": 5.632,
+  "text": "No dia vinte e cinco de outubro, o Brasil escolheu o presidente para os próximos quatro anos."
+ },
+ {
+  "sec": "01-abertura",
+  "para": 0,
+  "start": 5.852,
+  "end": 9.223,
+  "text": "Mas o novo mandato só começa no dia cinco de janeiro."
+ },
+ {
+  "sec": "01-abertura",
+  "para": 0,
+  "start": 9.443,
+  "end": 12.515,
+  "text": "São setenta e dois dias entre a urna e a posse."
+ },
+ {
+  "sec": "01-abertura",
+  "para": 1,
+  "start": 12.965,
+  "end": 16.485,
+  "text": "E esses setenta e dois dias não são um intervalo vazio."
+ },
+ {
+  "sec": "01-abertura",
+  "para": 1,
+  "start": 16.705,
+  "end": 26.411,
+  "text": "Tem prazo de prestação de contas, tem diplomação, tem janela para contestar o resultado na Justiça, e tem uma posse com data nova, que nunca foi usada antes."
+ },
+ {
+  "sec": "01-abertura",
+  "para": 2,
+  "start": 26.861,
+  "end": 30.723,
+  "text": "Neste vídeo, a gente percorre esse calendário etapa por etapa:"
+ },
+ {
+  "sec": "01-abertura",
+  "para": 2,
+  "start": 30.943,
+  "end": 33.823,
+  "text": "o que acontece, quem decide, e o que diz a lei."
+ },
+ {
+  "sec": "01-abertura",
+  "para": 2,
+  "start": 34.043,
+  "end": 38.139,
+  "text": "Sem torcida, só com as regras e as fontes, que estão todas na descrição."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 0,
+  "start": 39.389,
+  "end": 41.095,
+  "text": "Começando pelo começo:"
+ },
+ {
+  "sec": "02-resultado",
+  "para": 0,
+  "start": 41.315,
+  "end": 42.467,
+  "text": "o resultado."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 0,
+  "start": 42.687,
+  "end": 53.055,
+  "text": "Segundo o Tribunal Superior Eleitoral, Luiz Inácio Lula da Silva foi reeleito com sessenta e quatro milhões, duzentos e cinquenta e seis mil, duzentos e trinta e dois votos."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 0,
+  "start": 53.275,
+  "end": 58.033,
+  "text": "Isso dá cinquenta e um vírgula setenta e nove por cento dos votos válidos."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 1,
+  "start": 58.483,
+  "end": 67.528,
+  "text": "Flávio Bolsonaro teve cinquenta e nove milhões, oitocentos e vinte e seis mil e quarenta e um votos, ou quarenta e oito vírgula vinte e um por cento."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 1,
+  "start": 67.748,
+  "end": 72.079,
+  "text": "A diferença ficou em torno de quatro milhões e quatrocentos mil votos."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 2,
+  "start": 72.529,
+  "end": 75.857,
+  "text": "Votos válidos são os votos dados a um dos candidatos."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 2,
+  "start": 76.077,
+  "end": 78.551,
+  "text": "Brancos e nulos ficam de fora da conta."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 2,
+  "start": 78.771,
+  "end": 82.313,
+  "text": "É por isso que os dois percentuais somam exatamente cem."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 3,
+  "start": 82.763,
+  "end": 86.816,
+  "text": "O resultado foi declarado pelo tribunal na própria noite da eleição."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 3,
+  "start": 87.036,
+  "end": 90.62,
+  "text": "Mas declarar o resultado não é o mesmo que entregar o cargo."
+ },
+ {
+  "sec": "02-resultado",
+  "para": 3,
+  "start": 90.84,
+  "end": 93.379,
+  "text": "Para isso, ainda faltam algumas etapas."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 0,
+  "start": 94.629,
+  "end": 96.805,
+  "text": "Primeira etapa depois da urna:"
+ },
+ {
+  "sec": "03-transicao",
+  "para": 0,
+  "start": 97.025,
+  "end": 98.667,
+  "text": "a transição de governo."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 0,
+  "start": 98.887,
+  "end": 103.687,
+  "text": "Desde 2002, existe uma lei para isso, a lei dez mil seiscentos e nove."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 1,
+  "start": 104.137,
+  "end": 111.924,
+  "text": "Ela permite que o candidato eleito monte uma equipe de transição, com até cinquenta cargos especiais, criados só para esse período."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 1,
+  "start": 112.144,
+  "end": 121.104,
+  "text": "A equipe pode começar a trabalhar a partir do segundo dia útil depois da eleição, e os ministérios são obrigados a passar as informações que ela pedir:"
+ },
+ {
+  "sec": "03-transicao",
+  "para": 1,
+  "start": 121.324,
+  "end": 124.46,
+  "text": "contas públicas, programas em andamento, projetos."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 2,
+  "start": 124.91,
+  "end": 129.369,
+  "text": "Na prática, a transição serve para que um governo novo não comece no escuro."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 3,
+  "start": 129.819,
+  "end": 133.488,
+  "text": "Desta vez, o presidente eleito é o mesmo que já está no cargo."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 3,
+  "start": 133.708,
+  "end": 139.468,
+  "text": "Não há troca de governo, e quem vai assumir em janeiro já tem acesso a todas as informações."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 3,
+  "start": 139.688,
+  "end": 142.632,
+  "text": "E a lei diz que o eleito pode instituir a equipe."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 3,
+  "start": 142.852,
+  "end": 144.175,
+  "text": "Não é uma obrigação."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 4,
+  "start": 144.625,
+  "end": 148.614,
+  "text": "O que costuma ganhar atenção nesse período, então, é outra coisa:"
+ },
+ {
+  "sec": "03-transicao",
+  "para": 4,
+  "start": 148.834,
+  "end": 151.287,
+  "text": "a escolha dos ministros do novo mandato."
+ },
+ {
+  "sec": "03-transicao",
+  "para": 4,
+  "start": 151.507,
+  "end": 158.355,
+  "text": "Pela Constituição, ministros são nomeados livremente pelo presidente, sem precisar de aprovação do Congresso."
+ },
+ {
+  "sec": "04-contas",
+  "para": 0,
+  "start": 159.605,
+  "end": 160.821,
+  "text": "Segunda etapa:"
+ },
+ {
+  "sec": "04-contas",
+  "para": 0,
+  "start": 161.041,
+  "end": 162.599,
+  "text": "as contas da campanha."
+ },
+ {
+  "sec": "04-contas",
+  "para": 0,
+  "start": 162.819,
+  "end": 166.787,
+  "text": "Toda candidatura precisa prestar contas à Justiça Eleitoral:"
+ },
+ {
+  "sec": "04-contas",
+  "para": 0,
+  "start": 167.007,
+  "end": 169.823,
+  "text": "quanto arrecadou, de quem recebeu, e como gastou."
+ },
+ {
+  "sec": "04-contas",
+  "para": 1,
+  "start": 170.273,
+  "end": 178.017,
+  "text": "Para quem disputou o segundo turno, o prazo da prestação de contas final vai até catorze de novembro, e ela cobre os dois turnos."
+ },
+ {
+  "sec": "04-contas",
+  "para": 1,
+  "start": 178.237,
+  "end": 182.951,
+  "text": "Para quem ficou só no primeiro turno, o prazo terminou no dia três de novembro."
+ },
+ {
+  "sec": "04-contas",
+  "para": 1,
+  "start": 183.171,
+  "end": 189.529,
+  "text": "As datas estão na resolução do tê ésse é que define o calendário das eleições de 2026."
+ },
+ {
+  "sec": "04-contas",
+  "para": 2,
+  "start": 189.979,
+  "end": 192.837,
+  "text": "E aqui tem uma regra que pouca gente conhece."
+ },
+ {
+  "sec": "04-contas",
+  "para": 2,
+  "start": 193.057,
+  "end": 199.991,
+  "text": "Pelo artigo vinte e nove da Lei das Eleições, enquanto o eleito não entregar as contas, ele não pode ser diplomado."
+ },
+ {
+  "sec": "04-contas",
+  "para": 2,
+  "start": 200.211,
+  "end": 202.152,
+  "text": "E, sem diploma, não há posse."
+ },
+ {
+  "sec": "04-contas",
+  "para": 3,
+  "start": 202.602,
+  "end": 209.962,
+  "text": "Depois de entregues, as contas são julgadas pela Justiça Eleitoral, que pode aprovar, aprovar com ressalvas ou desaprovar."
+ },
+ {
+  "sec": "04-contas",
+  "para": 3,
+  "start": 210.182,
+  "end": 215.238,
+  "text": "E qualquer pessoa pode consultar os dados no portal Divulga Cand Contas, do tê ésse é."
+ },
+ {
+  "sec": "05-diplomacao",
+  "para": 0,
+  "start": 216.488,
+  "end": 217.725,
+  "text": "Terceira etapa:"
+ },
+ {
+  "sec": "05-diplomacao",
+  "para": 0,
+  "start": 217.945,
+  "end": 219.097,
+  "text": "a diplomação."
+ },
+ {
+  "sec": "05-diplomacao",
+  "para": 0,
+  "start": 219.317,
+  "end": 228.213,
+  "text": "É o ato em que a Justiça Eleitoral entrega ao eleito um diploma, um documento oficial que certifica que ele foi eleito e está habilitado a tomar posse."
+ },
+ {
+  "sec": "05-diplomacao",
+  "para": 1,
+  "start": 228.663,
+  "end": 230.754,
+  "text": "Quem entrega depende do cargo."
+ },
+ {
+  "sec": "05-diplomacao",
+  "para": 1,
+  "start": 230.974,
+  "end": 236.073,
+  "text": "O presidente e o vice são diplomados pelo Tribunal Superior Eleitoral, em Brasília."
+ },
+ {
+  "sec": "05-diplomacao",
+  "para": 1,
+  "start": 236.293,
+  "end": 242.863,
+  "text": "Governadores, senadores e deputados são diplomados pelos tribunais regionais eleitorais de cada estado."
+ },
+ {
+  "sec": "05-diplomacao",
+  "para": 2,
+  "start": 243.313,
+  "end": 250.78,
+  "text": "Pelo calendário eleitoral de 2026, todas as diplomações precisam acontecer até dezoito de dezembro."
+ },
+ {
+  "sec": "05-diplomacao",
+  "para": 2,
+  "start": 251.0,
+  "end": 254.456,
+  "text": "Cada tribunal marca a sua cerimônia dentro desse limite."
+ },
+ {
+  "sec": "05-diplomacao",
+  "para": 3,
+  "start": 254.906,
+  "end": 261.903,
+  "text": "Para ser diplomado, o eleito precisa estar com o registro de candidatura válido e ter entregado as contas da campanha."
+ },
+ {
+  "sec": "05-diplomacao",
+  "para": 3,
+  "start": 262.123,
+  "end": 265.195,
+  "text": "É uma espécie de conferência final antes da posse."
+ },
+ {
+  "sec": "05b-congresso-atual",
+  "para": 0,
+  "start": 266.445,
+  "end": 269.304,
+  "text": "Enquanto essas etapas andam, o país não para."
+ },
+ {
+  "sec": "05b-congresso-atual",
+  "para": 0,
+  "start": 269.524,
+  "end": 275.284,
+  "text": "O presidente e o Congresso atuais continuam com todos os poderes até o fim dos seus mandatos."
+ },
+ {
+  "sec": "05b-congresso-atual",
+  "para": 1,
+  "start": 275.734,
+  "end": 278.87,
+  "text": "E o Congresso tem uma tarefa grande até o fim do ano:"
+ },
+ {
+  "sec": "05b-congresso-atual",
+  "para": 1,
+  "start": 279.09,
+  "end": 284.253,
+  "text": "votar o Orçamento de 2027, que vai ser executado já no novo mandato."
+ },
+ {
+  "sec": "05b-congresso-atual",
+  "para": 1,
+  "start": 284.473,
+  "end": 295.566,
+  "text": "Pela Constituição, o governo envia o projeto até o fim de agosto, e o Congresso deve devolvê-lo para sanção até o encerramento da sessão legislativa, no dia vinte e dois de dezembro."
+ },
+ {
+  "sec": "05b-congresso-atual",
+  "para": 2,
+  "start": 296.016,
+  "end": 304.379,
+  "text": "Isso quer dizer que os deputados e senadores que estão saindo ainda ajudam a definir quanto o próximo governo vai poder gastar em cada área."
+ },
+ {
+  "sec": "05b-congresso-atual",
+  "para": 2,
+  "start": 304.599,
+  "end": 307.521,
+  "text": "Os novos parlamentares só chegam em fevereiro."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 0,
+  "start": 308.771,
+  "end": 311.459,
+  "text": "Quarta etapa, e talvez a mais mal explicada:"
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 0,
+  "start": 311.679,
+  "end": 314.837,
+  "text": "o que a lei prevê para quem quer contestar o resultado."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 1,
+  "start": 315.287,
+  "end": 317.74,
+  "text": "Discordar de uma eleição, a lei permite."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 1,
+  "start": 317.96,
+  "end": 322.013,
+  "text": "Mas o caminho é a Justiça Eleitoral, com prazos curtos e com provas."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 2,
+  "start": 322.463,
+  "end": 330.485,
+  "text": "O primeiro instrumento é o recurso contra a expedição de diploma, previsto no artigo duzentos e sessenta e dois do Código Eleitoral."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 2,
+  "start": 330.705,
+  "end": 339.857,
+  "text": "O prazo é de três dias depois da diplomação, e ele só vale para casos específicos, como inelegibilidade ou falta de condição para ser candidato."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 3,
+  "start": 340.307,
+  "end": 346.237,
+  "text": "O segundo é a ação de impugnação de mandato eletivo, prevista no artigo catorze da Constituição."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 3,
+  "start": 346.457,
+  "end": 354.351,
+  "text": "O prazo é de quinze dias depois da diplomação, e a ação precisa vir com provas de abuso do poder econômico, corrupção ou fraude."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 4,
+  "start": 354.801,
+  "end": 360.134,
+  "text": "No caso de presidente da República, quem julga é o próprio Tribunal Superior Eleitoral."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 4,
+  "start": 360.354,
+  "end": 370.914,
+  "text": "E o Código Eleitoral, no artigo duzentos e dezesseis, diz que, enquanto o tribunal não decidir o recurso contra o diploma, o diplomado pode exercer o mandato normalmente."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 5,
+  "start": 371.364,
+  "end": 372.281,
+  "text": "Ou seja:"
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 5,
+  "start": 372.501,
+  "end": 376.512,
+  "text": "até uma decisão final da Justiça, vale o resultado proclamado."
+ },
+ {
+  "sec": "06-contestacao",
+  "para": 5,
+  "start": 376.732,
+  "end": 380.295,
+  "text": "E esses prazos só começam a contar depois da diplomação."
+ },
+ {
+  "sec": "07-posse",
+  "para": 0,
+  "start": 381.545,
+  "end": 382.654,
+  "text": "Quinta etapa:"
+ },
+ {
+  "sec": "07-posse",
+  "para": 0,
+  "start": 382.874,
+  "end": 383.685,
+  "text": "a posse."
+ },
+ {
+  "sec": "07-posse",
+  "para": 0,
+  "start": 383.905,
+  "end": 386.102,
+  "text": "E esta é a parte com novidade."
+ },
+ {
+  "sec": "07-posse",
+  "para": 1,
+  "start": 386.552,
+  "end": 393.016,
+  "text": "Desde 1995, todo presidente brasileiro tomou posse no dia primeiro de janeiro."
+ },
+ {
+  "sec": "07-posse",
+  "para": 1,
+  "start": 393.236,
+  "end": 399.7,
+  "text": "A Emenda Constitucional cento e onze, de 2021, mudou o artigo oitenta e dois da Constituição."
+ },
+ {
+  "sec": "07-posse",
+  "para": 1,
+  "start": 399.92,
+  "end": 404.165,
+  "text": "A partir desta eleição, a posse do presidente é no dia cinco de janeiro."
+ },
+ {
+  "sec": "07-posse",
+  "para": 2,
+  "start": 404.615,
+  "end": 412.551,
+  "text": "Um dos motivos citados foi tirar a cerimônia do feriado de Ano Novo, que dificultava a presença de chefes de Estado estrangeiros."
+ },
+ {
+  "sec": "07-posse",
+  "para": 2,
+  "start": 412.771,
+  "end": 421.881,
+  "text": "E, como o mandato atual começou em primeiro de janeiro de 2023 e vai até a posse do sucessor, ele vai durar quatro dias a mais que o normal."
+ },
+ {
+  "sec": "07-posse",
+  "para": 3,
+  "start": 422.331,
+  "end": 425.787,
+  "text": "A posse acontece no Congresso Nacional, em sessão solene."
+ },
+ {
+  "sec": "07-posse",
+  "para": 3,
+  "start": 426.007,
+  "end": 430.615,
+  "text": "O presidente presta o compromisso do artigo setenta e oito da Constituição:"
+ },
+ {
+  "sec": "07-posse",
+  "para": 3,
+  "start": 430.835,
+  "end": 440.584,
+  "text": "manter, defender e cumprir a Constituição, observar as leis, promover o bem geral do povo brasileiro, e sustentar a união, a integridade e a independência do Brasil."
+ },
+ {
+  "sec": "07-posse",
+  "para": 4,
+  "start": 441.034,
+  "end": 443.914,
+  "text": "E a Constituição tem uma regra de segurança:"
+ },
+ {
+  "sec": "07-posse",
+  "para": 4,
+  "start": 444.134,
+  "end": 452.817,
+  "text": "se, dez dias depois da data marcada, o presidente ou o vice não tiver assumido o cargo, salvo motivo de força maior, o cargo é declarado vago."
+ },
+ {
+  "sec": "07-posse",
+  "para": 5,
+  "start": 453.267,
+  "end": 459.795,
+  "text": "O novo mandato vai de cinco de janeiro de 2027 até cinco de janeiro de 2031."
+ },
+ {
+  "sec": "08-governadores-e-congresso",
+  "para": 0,
+  "start": 461.045,
+  "end": 468.725,
+  "text": "No dia seguinte, seis de janeiro, é a vez dos governadores e vice-governadores dos vinte e seis estados e do Distrito Federal."
+ },
+ {
+  "sec": "08-governadores-e-congresso",
+  "para": 0,
+  "start": 468.945,
+  "end": 477.819,
+  "text": "As datas foram separadas para que os governadores eleitos possam acompanhar a posse do presidente, em Brasília, antes de assumir os próprios cargos."
+ },
+ {
+  "sec": "08-governadores-e-congresso",
+  "para": 1,
+  "start": 478.269,
+  "end": 480.424,
+  "text": "Já o Congresso não mudou de data."
+ },
+ {
+  "sec": "08-governadores-e-congresso",
+  "para": 1,
+  "start": 480.644,
+  "end": 487.3,
+  "text": "Deputados federais e senadores eleitos tomam posse no dia primeiro de fevereiro de 2027."
+ },
+ {
+  "sec": "08-governadores-e-congresso",
+  "para": 1,
+  "start": 487.52,
+  "end": 496.139,
+  "text": "E, nas sessões que começam nesse dia, cada Casa elege a sua Mesa, incluindo os presidentes da Câmara e do Senado, para um mandato de dois anos."
+ },
+ {
+  "sec": "08-governadores-e-congresso",
+  "para": 2,
+  "start": 496.589,
+  "end": 502.157,
+  "text": "Os prefeitos, que não foram eleitos agora, continuam com a posse no primeiro de janeiro, como sempre."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 0,
+  "start": 503.407,
+  "end": 505.305,
+  "text": "Recapitulando o calendário."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 0,
+  "start": 505.525,
+  "end": 507.765,
+  "text": "Vinte e cinco de outubro, a eleição."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 0,
+  "start": 507.985,
+  "end": 512.657,
+  "text": "Até catorze de novembro, a prestação de contas de quem foi ao segundo turno."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 0,
+  "start": 512.877,
+  "end": 515.501,
+  "text": "Até dezoito de dezembro, a diplomação."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 0,
+  "start": 515.721,
+  "end": 520.009,
+  "text": "Três e quinze dias depois dela, os prazos para contestar na Justiça."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 0,
+  "start": 520.229,
+  "end": 522.789,
+  "text": "Cinco de janeiro, a posse do presidente."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 0,
+  "start": 523.009,
+  "end": 525.42,
+  "text": "Seis de janeiro, a dos governadores."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 0,
+  "start": 525.64,
+  "end": 528.2,
+  "text": "E primeiro de fevereiro, o novo Congresso."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 1,
+  "start": 528.65,
+  "end": 532.021,
+  "text": "Todas as fontes usadas neste vídeo estão na descrição:"
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 1,
+  "start": 532.241,
+  "end": 537.254,
+  "text": "a Constituição, o Código Eleitoral, a Lei das Eleições e o calendário do tê ésse é."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 2,
+  "start": 537.704,
+  "end": 542.547,
+  "text": "Se este vídeo ajudou a entender o que vem pela frente, se inscreva no Pauta Clara."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 2,
+  "start": 542.767,
+  "end": 546.009,
+  "text": "Toda semana tem política explicada, sem torcida."
+ },
+ {
+  "sec": "09-fechamento",
+  "para": 2,
+  "start": 546.229,
+  "end": 547.403,
+  "text": "Até a próxima."
+ }
+]

@@ -1,0 +1,275 @@
+{
+ "tema": "papel",
+ "marca": "PAUTA CLARA",
+ "decoracao": "pauta",
+ "cores": {
+  "bg": "#eef2f6",
+  "bg2": "#d3dbe5",
+  "ink": "#0f1b2d",
+  "sub": "#4a5568",
+  "acc": "#0a7e78",
+  "card": "#ffffff",
+  "cardh": "#f0f4f8",
+  "line": "#d3dbe5",
+  "muted": "#6b7a8f"
+ },
+ "simbolo": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 96 96\"><rect x=\"4\" y=\"4\" width=\"88\" height=\"88\" rx=\"22\" fill=\"var(--ink)\"/><rect x=\"22\" y=\"28\" width=\"52\" height=\"8\" rx=\"4\" fill=\"#fff\"/><rect x=\"22\" y=\"44\" width=\"52\" height=\"8\" rx=\"4\" fill=\"#fff\"/><rect x=\"22\" y=\"60\" width=\"34\" height=\"8\" rx=\"4\" fill=\"var(--acc)\"/></svg>",
+ "girarMarca": false,
+ "aviso": "voz sintética · fontes na descrição",
+ "audio": "narracao.wav",
+ "batidas": [
+  {
+   "b": 4.347,
+   "apoio": [
+    0.15,
+    "dá para contestar uma"
+   ],
+   "titulo": [
+    [
+     0.55,
+     "*eleição*?"
+    ]
+   ]
+  },
+  {
+   "b": 7.634,
+   "apoio": [
+    4.247,
+    "pode, mas a lei define"
+   ],
+   "titulo": [
+    [
+     4.647,
+     "como e"
+    ],
+    [
+     5.397,
+     "*quando*"
+    ]
+   ]
+  },
+  {
+   "b": 15.123,
+   "apoio": [
+    7.534,
+    "caminho 1: recurso contra o"
+   ],
+   "titulo": [
+    [
+     7.934,
+     "*diploma*"
+    ]
+   ]
+  },
+  {
+   "b": 18.453,
+   "apoio": [
+    15.023,
+    "prazo:"
+   ],
+   "titulo": [
+    [
+     15.423,
+     "*3 dias*"
+    ]
+   ]
+  },
+  {
+   "b": 23.553,
+   "apoio": [
+    18.353,
+    "caminho 2: ação de"
+   ],
+   "titulo": [
+    [
+     18.753,
+     "*impugnação*"
+    ]
+   ]
+  },
+  {
+   "b": 31.789,
+   "apoio": [
+    23.453,
+    "prazo de 15 dias, e com"
+   ],
+   "titulo": [
+    [
+     23.853,
+     "*provas*"
+    ]
+   ]
+  },
+  {
+   "b": 37.678,
+   "apoio": [
+    31.689,
+    "quem julga:"
+   ],
+   "titulo": [
+    [
+     32.089,
+     "*TSE*"
+    ]
+   ]
+  },
+  {
+   "b": 48.303,
+   "apoio": [
+    37.578,
+    "enquanto isso, o diplomado"
+   ],
+   "titulo": [
+    [
+     37.978,
+     "*exerce* o"
+    ],
+    [
+     38.728,
+     "mandato"
+    ]
+   ]
+  },
+  {
+   "b": 53.467,
+   "apoio": [
+    48.203,
+    "até lá, vale o"
+   ],
+   "titulo": [
+    [
+     48.603,
+     "resultado"
+    ],
+    [
+     49.353,
+     "*oficial*"
+    ]
+   ]
+  },
+  {
+   "b": 99,
+   "apoio": [
+    53.367,
+    "amanhã, vídeo completo:"
+   ],
+   "titulo": [
+    [
+     53.767,
+     "o"
+    ],
+    [
+     54.517,
+     "*calendário*"
+    ]
+   ]
+  }
+ ],
+ "cartao": {
+  "arquivo": [
+   [
+    0.3,
+    "codigo-eleitoral.txt"
+   ],
+   [
+    18.503,
+    "constituicao-art14.txt"
+   ],
+   [
+    31.839,
+    "rito.txt"
+   ]
+  ],
+  "etiqueta": [
+   [
+    0.3,
+    "● rito legal"
+   ]
+  ],
+  "rotulo": [
+   [
+    0.3,
+    "OS DOIS CAMINHOS NA LEI"
+   ],
+   [
+    31.839,
+    "DURANTE O PROCESSO"
+   ]
+  ],
+  "paineis": [
+   {
+    "tipo": "lista",
+    "a": 0.7,
+    "b": 31.839,
+    "itens": [
+     {
+      "t": 8.184,
+      "texto": "*RCED* · contra o diploma",
+      "nota": "Código Eleitoral · art. 262"
+     },
+     {
+      "t": 15.573,
+      "texto": "prazo: *3 dias*",
+      "nota": "após a diplomação"
+     },
+     {
+      "t": 19.003,
+      "texto": "*AIME* · contra o mandato",
+      "nota": "Constituição · art. 14, § 10"
+     },
+     {
+      "t": 24.103,
+      "texto": "prazo: *15 dias* + provas",
+      "nota": "abuso econômico, corrupção ou fraude"
+     }
+    ]
+   },
+   {
+    "tipo": "lista",
+    "a": 31.839,
+    "b": 53.517,
+    "itens": [
+     {
+      "t": 32.239,
+      "texto": "quem julga: *TSE*",
+      "nota": "no caso de presidente"
+     },
+     {
+      "t": 38.728,
+      "texto": "diplomado *exerce* o mandato",
+      "nota": "Código Eleitoral · art. 216"
+     },
+     {
+      "t": 48.853,
+      "texto": "vale o resultado *oficial*",
+      "nota": "proclamado pelo TSE"
+     }
+    ]
+   }
+  ],
+  "diario": [
+   [
+    4.897,
+    "§ Constituição + Código Eleitoral"
+   ],
+   [
+    25.103,
+    "✓ a ação exige provas"
+   ],
+   [
+    48.853,
+    "fonte: TSE · Código Eleitoral"
+   ]
+  ],
+  "a": 0.7,
+  "b": 53.517
+ },
+ "chamada": {
+  "a": 53.517,
+  "pilulas": [
+   "Amanhã: vídeo completo",
+   "Pauta Clara"
+  ],
+  "seta": false
+ }
+}

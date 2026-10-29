@@ -1,0 +1,290 @@
+{
+ "tema": "papel",
+ "marca": "PAUTA CLARA",
+ "decoracao": "pauta",
+ "cores": {
+  "bg": "#eef2f6",
+  "bg2": "#d3dbe5",
+  "ink": "#0f1b2d",
+  "sub": "#4a5568",
+  "acc": "#0a7e78",
+  "card": "#ffffff",
+  "cardh": "#f0f4f8",
+  "line": "#d3dbe5",
+  "muted": "#6b7a8f"
+ },
+ "simbolo": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 96 96\"><rect x=\"4\" y=\"4\" width=\"88\" height=\"88\" rx=\"22\" fill=\"var(--ink)\"/><rect x=\"22\" y=\"28\" width=\"52\" height=\"8\" rx=\"4\" fill=\"#fff\"/><rect x=\"22\" y=\"44\" width=\"52\" height=\"8\" rx=\"4\" fill=\"#fff\"/><rect x=\"22\" y=\"60\" width=\"34\" height=\"8\" rx=\"4\" fill=\"var(--acc)\"/></svg>",
+ "girarMarca": false,
+ "aviso": "voz sintética · fontes na descrição",
+ "audio": "narracao.wav",
+ "batidas": [
+  {
+   "b": 5.307,
+   "apoio": [
+    0.15,
+    "em 2027, são"
+   ],
+   "titulo": [
+    [
+     0.55,
+     "*2 posses*"
+    ],
+    [
+     1.3,
+     "seguidas"
+    ]
+   ]
+  },
+  {
+   "b": 7.954,
+   "apoio": [
+    5.207,
+    "5 de janeiro:"
+   ],
+   "titulo": [
+    [
+     5.607,
+     "*presidente*"
+    ]
+   ]
+  },
+  {
+   "b": 12.67,
+   "apoio": [
+    7.854,
+    "6 de janeiro:"
+   ],
+   "titulo": [
+    [
+     8.254,
+     "*governos*"
+    ],
+    [
+     9.004,
+     "*estaduais*"
+    ]
+   ]
+  },
+  {
+   "b": 16.767,
+   "apoio": [
+    12.57,
+    "antes, era tudo em"
+   ],
+   "titulo": [
+    [
+     12.97,
+     "*1º de*"
+    ],
+    [
+     13.72,
+     "*janeiro*"
+    ]
+   ]
+  },
+  {
+   "b": 24.833,
+   "apoio": [
+    16.667,
+    "governador não estava em"
+   ],
+   "titulo": [
+    [
+     17.067,
+     "*2 lugares*"
+    ]
+   ]
+  },
+  {
+   "b": 30.914,
+   "apoio": [
+    24.733,
+    "a Emenda 111 estreia em"
+   ],
+   "titulo": [
+    [
+     25.133,
+     "*2027*"
+    ]
+   ]
+  },
+  {
+   "b": 36.057,
+   "apoio": [
+    30.814,
+    "Congresso continua em"
+   ],
+   "titulo": [
+    [
+     31.214,
+     "*1º de*"
+    ],
+    [
+     31.964,
+     "*fevereiro*"
+    ]
+   ]
+  },
+  {
+   "b": 39.813,
+   "apoio": [
+    35.957,
+    "prefeitos seguem em"
+   ],
+   "titulo": [
+    [
+     36.357,
+     "*1º de*"
+    ],
+    [
+     37.107,
+     "*janeiro*"
+    ]
+   ]
+  },
+  {
+   "b": 99,
+   "apoio": [
+    39.713,
+    "política explicada, sem torcida:"
+   ],
+   "titulo": [
+    [
+     40.113,
+     "Pauta"
+    ],
+    [
+     40.863,
+     "*Clara*"
+    ]
+   ]
+  }
+ ],
+ "cartao": {
+  "arquivo": [
+   [
+    0.3,
+    "janeiro-2027.cal"
+   ],
+   [
+    30.964,
+    "fevereiro-2027.cal"
+   ],
+   [
+    36.107,
+    "janeiro.cal"
+   ]
+  ],
+  "etiqueta": [
+   [
+    0.3,
+    "● EC 111/2021"
+   ]
+  ],
+  "rotulo": [
+   [
+    0.3,
+    "POSSES DE 2027"
+   ],
+   [
+    30.964,
+    "CONGRESSO NACIONAL"
+   ],
+   [
+    36.107,
+    "MUNICÍPIOS"
+   ]
+  ],
+  "paineis": [
+   {
+    "tipo": "extra",
+    "a": 0.7,
+    "b": 39.863
+   }
+  ],
+  "diario": [
+   [
+    8.504,
+    "26 estados + DF · 27 posses"
+   ],
+   [
+    25.383,
+    "§ EC 111/2021 · arts. 28 e 82"
+   ],
+   [
+    36.607,
+    "✓ prefeitos: sem mudança"
+   ]
+  ],
+  "a": 0.7,
+  "b": 39.863
+ },
+ "chamada": {
+  "a": 39.863,
+  "pilulas": [
+   "Política sem torcida",
+   "Pauta Clara"
+  ],
+  "seta": false
+ },
+ "calendario": [
+  {
+   "a": 0.7,
+   "b": 30.964,
+   "mes": "JANEIRO 2027",
+   "inicio": 5,
+   "dias": 31,
+   "marcas": [
+    {
+     "dia": 5,
+     "t": 5.857,
+     "tipo": "cheio",
+     "nota": "5/jan · presidente"
+    },
+    {
+     "dia": 6,
+     "t": 8.504,
+     "tipo": "cheio",
+     "nota": "6/jan · governadores"
+    },
+    {
+     "dia": 1,
+     "t": 13.52,
+     "tipo": "circulo",
+     "nota": "1º/jan · como era até 2023"
+    }
+   ]
+  },
+  {
+   "a": 30.964,
+   "b": 36.107,
+   "mes": "FEVEREIRO 2027",
+   "inicio": 1,
+   "dias": 28,
+   "marcas": [
+    {
+     "dia": 1,
+     "t": 32.464,
+     "tipo": "cheio",
+     "nota": "1º/fev · deputados e senadores"
+    }
+   ]
+  },
+  {
+   "a": 36.107,
+   "b": 39.863,
+   "mes": "JANEIRO",
+   "inicio": 5,
+   "dias": 31,
+   "marcas": [
+    {
+     "dia": 1,
+     "t": 37.307,
+     "tipo": "cheio",
+     "nota": "1º/jan · prefeitos (sem mudança)"
+    }
+   ]
+  }
+ ],
+ "extra": "/tmp/claude-0/pc/ferramentas/calendario.js"
+}

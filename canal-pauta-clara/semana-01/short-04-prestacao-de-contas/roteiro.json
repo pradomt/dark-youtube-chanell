@@ -1,0 +1,259 @@
+{
+ "tema": "papel",
+ "marca": "PAUTA CLARA",
+ "decoracao": "pauta",
+ "cores": {
+  "bg": "#eef2f6",
+  "bg2": "#d3dbe5",
+  "ink": "#0f1b2d",
+  "sub": "#4a5568",
+  "acc": "#0a7e78",
+  "card": "#ffffff",
+  "cardh": "#f0f4f8",
+  "line": "#d3dbe5",
+  "muted": "#6b7a8f"
+ },
+ "simbolo": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 96 96\"><rect x=\"4\" y=\"4\" width=\"88\" height=\"88\" rx=\"22\" fill=\"var(--ink)\"/><rect x=\"22\" y=\"28\" width=\"52\" height=\"8\" rx=\"4\" fill=\"#fff\"/><rect x=\"22\" y=\"44\" width=\"52\" height=\"8\" rx=\"4\" fill=\"#fff\"/><rect x=\"22\" y=\"60\" width=\"34\" height=\"8\" rx=\"4\" fill=\"var(--acc)\"/></svg>",
+ "girarMarca": false,
+ "aviso": "voz sintética · fontes na descrição",
+ "audio": "narracao.wav",
+ "batidas": [
+  {
+   "b": 4.091,
+   "apoio": [
+    0.15,
+    "a eleição acabou, mas falta"
+   ],
+   "titulo": [
+    [
+     0.55,
+     "fechar a"
+    ],
+    [
+     1.3,
+     "*conta*"
+    ]
+   ]
+  },
+  {
+   "b": 10.386,
+   "apoio": [
+    3.991,
+    "2º turno: prazo até"
+   ],
+   "titulo": [
+    [
+     4.391,
+     "*14 de*"
+    ],
+    [
+     5.141,
+     "*novembro*"
+    ]
+   ]
+  },
+  {
+   "b": 14.547,
+   "apoio": [
+    10.286,
+    "entra tudo o que foi"
+   ],
+   "titulo": [
+    [
+     10.686,
+     "arrecadado"
+    ],
+    [
+     11.436,
+     "e *gasto*"
+    ]
+   ]
+  },
+  {
+   "b": 18.325,
+   "apoio": [
+    14.447,
+    "só 1º turno: prazo era"
+   ],
+   "titulo": [
+    [
+     14.847,
+     "*3 de*"
+    ],
+    [
+     15.597,
+     "*novembro*"
+    ]
+   ]
+  },
+  {
+   "b": 21.505,
+   "apoio": [
+    18.225,
+    "vale para quem"
+   ],
+   "titulo": [
+    [
+     18.625,
+     "ganhou e"
+    ],
+    [
+     19.375,
+     "*perdeu*"
+    ]
+   ]
+  },
+  {
+   "b": 30.061,
+   "apoio": [
+    21.405,
+    "sem as contas entregues,"
+   ],
+   "titulo": [
+    [
+     21.805,
+     "*sem*"
+    ],
+    [
+     22.555,
+     "diploma"
+    ]
+   ]
+  },
+  {
+   "b": 35.31,
+   "apoio": [
+    29.961,
+    "qualquer pessoa pode"
+   ],
+   "titulo": [
+    [
+     30.361,
+     "*consultar*"
+    ]
+   ]
+  },
+  {
+   "b": 99,
+   "apoio": [
+    35.21,
+    "cada etapa até a posse:"
+   ],
+   "titulo": [
+    [
+     35.61,
+     "Pauta"
+    ],
+    [
+     36.36,
+     "*Clara*"
+    ]
+   ]
+  }
+ ],
+ "cartao": {
+  "arquivo": [
+   [
+    0.3,
+    "novembro-2026.cal"
+   ],
+   [
+    18.375,
+    "lei-9504-art29.txt"
+   ]
+  ],
+  "etiqueta": [
+   [
+    0.3,
+    "● prestação de contas"
+   ]
+  ],
+  "rotulo": [
+   [
+    0.3,
+    "PRAZOS DA PRESTAÇÃO FINAL"
+   ],
+   [
+    18.375,
+    "O QUE A LEI DIZ"
+   ]
+  ],
+  "paineis": [
+   {
+    "tipo": "extra",
+    "a": 0.7,
+    "b": 18.375
+   },
+   {
+    "tipo": "lista",
+    "a": 18.375,
+    "b": 35.36,
+    "itens": [
+     {
+      "t": 18.675,
+      "texto": "vale para *todos*",
+      "nota": "eleitos e não eleitos"
+     },
+     {
+      "t": 23.055,
+      "texto": "sem contas = *sem diploma*",
+      "nota": "Lei 9.504/97 · art. 29, § 2º"
+     },
+     {
+      "t": 30.611,
+      "texto": "consulta *pública*",
+      "nota": "DivulgaCandContas · TSE"
+     }
+    ]
+   }
+  ],
+  "diario": [
+   [
+    4.941,
+    "Conta+JE · sistema de envio"
+   ],
+   [
+    10.936,
+    "✓ receitas e despesas dos 2 turnos"
+   ],
+   [
+    22.355,
+    "§ Lei 9.504/97 · art. 29"
+   ]
+  ],
+  "a": 0.7,
+  "b": 35.36
+ },
+ "chamada": {
+  "a": 35.36,
+  "pilulas": [
+   "Sábado: vídeo completo",
+   "Pauta Clara"
+  ],
+  "seta": false
+ },
+ "calendario": [
+  {
+   "a": 0.7,
+   "b": 18.375,
+   "mes": "NOVEMBRO 2026",
+   "inicio": 0,
+   "dias": 30,
+   "marcas": [
+    {
+     "dia": 14,
+     "t": 5.341,
+     "tipo": "circulo",
+     "nota": "14/11 · quem foi ao 2º turno"
+    },
+    {
+     "dia": 3,
+     "t": 15.397,
+     "tipo": "risco",
+     "nota": "3/11 · só 1º turno (encerrado)"
+    }
+   ]
+  }
+ ],
+ "extra": "/tmp/claude-0/pc/ferramentas/calendario.js"
+}

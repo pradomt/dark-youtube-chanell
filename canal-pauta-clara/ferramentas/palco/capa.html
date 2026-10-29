@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Capa/thumbnail do Pauta Clara. Parâmetros em window.__CAPA = {w, h, apoio, titulo (com *destaque*), selo, data} -->
+<style>
+@font-face{font-family:M;font-weight:500;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff2)}
+@font-face{font-family:M;font-weight:900;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+@font-face{font-family:J;font-weight:800;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-800-normal.woff2)}
+:root{--bg:#eef2f6;--bg2:#d3dbe5;--ink:#0f1b2d;--sub:#4a5568;--acc:#0a7e78;--line:#c9d2dd}
+html,body{margin:0;overflow:hidden}
+body{font-family:M,sans-serif;color:var(--ink);position:relative;background:radial-gradient(ellipse 80% 70% at 40% 45%,var(--bg) 0%,var(--bg) 40%,var(--bg2) 100%)}
+body::before{content:'';position:absolute;inset:0;opacity:.7;background:linear-gradient(to right,transparent var(--m),var(--acc) var(--m) calc(var(--m) + 5px),transparent calc(var(--m) + 5px)),repeating-linear-gradient(to bottom,transparent 0 calc(var(--r) - 2px),var(--line) calc(var(--r) - 2px) var(--r))}
+.abs{position:absolute}
+#marca{display:flex;align-items:center;gap:16px;font:800 var(--fm) J,monospace;letter-spacing:5px;color:var(--ink)}
+#apoio{font-weight:500;color:var(--sub);line-height:1.1}
+#tit{font-weight:900;line-height:.98;letter-spacing:-2px}
+#tit em{font-style:normal;color:var(--acc)}
+#selo{background:var(--ink);color:#fff;font:800 var(--fs) J,monospace;letter-spacing:2px;border-radius:18px;text-align:center;padding:18px 26px;line-height:1.15}
+#selo b{display:block;color:#5fd3c9;font:900 var(--fsb) M,sans-serif;letter-spacing:-1px}
+</style></head><body>
+<div id="marca" class="abs"></div><div id="apoio" class="abs"></div><div id="tit" class="abs"></div><div id="selo" class="abs"></div>
+<script>
+const C = window.__CAPA, $ = id => document.getElementById(id), em = s => s.replace(/\*(.+?)\*/g, '<em>$1</em>');
+const H = C.h > C.w;  // vertical (Short) ou horizontal (longo)
+document.body.style.cssText += `width:${C.w}px;height:${C.h}px;--m:${H ? 84 : 70}px;--r:${H ? 65 : 48}px;--fm:${H ? 30 : 26}px;--fs:${H ? 34 : 30}px;--fsb:${H ? 120 : 110}px`;
+$('marca').innerHTML = C.simbolo + '<span>PAUTA CLARA</span>';
+Object.assign($('marca').style, H ? { left: '140px', top: '120px' } : { left: '110px', top: '56px' });
+$('apoio').innerHTML = em(C.apoio || ''); $('tit').innerHTML = em(C.titulo).replace(/\n/g, '<br>');
+if (H) { Object.assign($('apoio').style, { left: '140px', right: '80px', top: '420px', fontSize: '64px' });
+         Object.assign($('tit').style, { left: '140px', right: '60px', top: '520px', fontSize: (C.tamanho || 150) + 'px' });
+         Object.assign($('selo').style, { left: '140px', bottom: '330px' }); }
+else { Object.assign($('apoio').style, { left: '110px', top: '170px', fontSize: '50px', width: '760px' });
+       Object.assign($('tit').style, { left: '110px', top: '240px', fontSize: (C.tamanho || 150) + 'px', width: '700px' });
+       Object.assign($('selo').style, { right: '80px', top: '210px', width: '280px' }); }
+window.ajustar = () => { $('tit').style.top = ($('apoio').offsetTop + $('apoio').offsetHeight + (H ? 30 : 16)) + 'px'; };
+$('selo').innerHTML = C.selo || ''; if (!C.selo) $('selo').style.display = 'none';
+</script></body></html>
