@@ -1,0 +1,177 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Template "palco único" para vídeos longos 1920x1080 (versão horizontal do template de Shorts).
+     O conteúdo vem do roteiro (window.__ROTEIRO): capítulos, batidas (apoio + título) e cenas do cartão. -->
+<style>
+@font-face{font-family:M;font-weight:500;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff2)}
+@font-face{font-family:M;font-weight:800;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:M;font-weight:900;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+@font-face{font-family:M;font-weight:500;font-style:italic;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-500-italic.woff2)}
+@font-face{font-family:J;font-weight:500;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-500-normal.woff2)}
+@font-face{font-family:J;font-weight:700;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-700-normal.woff2)}
+@font-face{font-family:J;font-weight:800;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-800-normal.woff2)}
+:root{--bg:#f4f0e6;--bg2:#ddd6c6;--ink:#141414;--sub:#5a5650;--acc:#e8641e;--card:#fffdf8;--cardh:#f1ece1;--line:#e3dccd;
+  --muted:#8a8478;--planet1:#cfc6b4;--planet2:#8f8676;--ring:#b9b09d}
+body.noite{--bg:#0d1430;--bg2:#05081a;--ink:#f3efe6;--sub:#9aa3b5;--acc:#f1691b;--card:#121a33;--cardh:#182244;--line:#26305a;
+  --muted:#7d88a8;--planet1:#2a3566;--planet2:#0b1028;--ring:#3a4677}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden}
+body{background:radial-gradient(ellipse 70% 75% at 45% 50%,var(--bg) 0%,var(--bg) 45%,var(--bg2) 100%);font-family:M,sans-serif;color:var(--ink);position:relative}
+.abs{position:absolute}
+/* decoração "biblia": arco de pedra (porta de túmulo/portal) no canto e lamparina de barro */
+#arco{left:-60px;top:-210px;width:440px;height:440px;opacity:.8}
+#lamp{right:30px;bottom:6px;width:300px;height:182px}
+body.sem-decor #arco,body.sem-decor #lamp{display:none}
+#nome{left:290px;top:60px;font:500 22px J,monospace;letter-spacing:6px;color:var(--muted)}
+#cap{left:110px;bottom:58px;font:700 20px J,monospace;letter-spacing:4px;color:var(--muted)}
+#cap b{color:var(--acc)}
+#prog{left:110px;bottom:44px;width:720px;height:4px;background:var(--line);border-radius:2px;overflow:hidden}
+#prog i{display:block;height:100%;background:var(--acc)}
+.bloco{left:110px;width:760px;top:0;height:1080px;display:flex;flex-direction:column;justify-content:center}
+.lead{font-weight:500;font-size:38px;color:var(--sub);line-height:1.15}
+.tit{font-weight:900;font-size:96px;line-height:1.02;letter-spacing:-1px;margin-top:12px}
+.tit.m{font-size:80px}.tit.p{font-size:66px}
+.tit em,.lead em{font-style:normal;color:var(--acc)}
+.w{display:inline-block;white-space:pre}
+#card{left:930px;top:120px;width:880px;height:800px;background:var(--card);border-radius:28px;overflow:hidden;
+  box-shadow:0 30px 70px rgba(0,0,0,.16),0 0 0 1px var(--line)}
+#hd{height:76px;background:var(--cardh);border-bottom:2px solid var(--line);display:flex;align-items:center;padding:0 28px;gap:12px;font-weight:800;font-size:26px}
+#hd i{width:17px;height:17px;border-radius:50%;display:inline-block}
+#hdt{margin-left:14px;flex:1}
+#tag{font:700 22px J,monospace;color:var(--acc)}
+#rot{height:46px;padding:18px 30px 0;font:700 20px J,monospace;letter-spacing:3px;color:var(--muted)}
+#area{left:26px;top:140px;width:828px;height:560px;border-radius:18px;overflow:hidden}
+.painel{position:absolute;inset:0}
+.painel img{position:absolute;left:0;top:0;width:828px;height:560px;object-fit:cover;border-radius:14px}
+.painel img.contain{object-fit:contain;background:transparent}
+.painel .fundo{position:absolute;inset:-30px;background-size:cover;background-position:center;filter:blur(26px) brightness(.8);opacity:.9}
+.cred{position:absolute;right:10px;bottom:8px;max-width:760px;padding:4px 10px;border-radius:8px;background:rgba(0,0,0,.55);color:#f3efe6;font:500 14px J,monospace;text-align:right}
+.lista{padding:6px 6px;display:flex;flex-direction:column;gap:14px}
+.item{padding:16px 24px;border-radius:14px;background:var(--cardh);border:3px solid transparent;font-weight:800;font-size:32px}
+.item.atual{border-color:var(--acc)}
+.item em{font-style:normal;color:var(--acc)}
+.item small{display:block;font:500 20px J,monospace;color:var(--muted);margin-top:4px}
+.numero{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%}
+.numero b{font-weight:900;font-size:200px;color:var(--acc);line-height:1}
+.numero span{font:700 26px J,monospace;color:var(--muted);letter-spacing:3px;margin-top:14px;text-align:center}
+.citacao{display:flex;flex-direction:column;justify-content:center;height:100%;padding:0 40px;box-sizing:border-box}
+.citacao q{quotes:none;font:italic 500 40px/1.35 M,sans-serif;color:var(--ink)}
+.citacao q em{font-style:italic;color:var(--acc);font-weight:800}
+.citacao cite{display:block;margin-top:26px;font:700 22px J,monospace;font-style:normal;letter-spacing:3px;color:var(--muted)}
+.svgp svg{width:828px;height:560px}
+#log{left:0;right:0;top:716px;height:84px;border-top:2px solid var(--line);background:var(--cardh);padding:10px 30px;box-sizing:border-box;
+  font:500 21px/1.55 J,monospace;color:var(--sub)}
+#log b{color:var(--acc);font-weight:700}
+/* capítulo: tela cheia com número e nome */
+#capt{left:0;right:0;top:0;bottom:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+#capt .n{font:800 34px J,monospace;color:var(--acc);letter-spacing:8px}
+#capt .t{font-weight:900;font-size:120px;letter-spacing:-1px;margin-top:14px;max-width:1500px;line-height:1.02}
+#capt .t em{font-style:normal;color:var(--acc)}
+#capt .s{font:500 30px J,monospace;color:var(--muted);margin-top:22px;letter-spacing:2px}
+#aviso{right:110px;bottom:52px;font:500 18px J,monospace;color:var(--muted)}
+</style></head>
+<body>
+<svg id="arco" class="abs" viewBox="0 0 520 520"></svg>
+<svg id="lamp" class="abs" viewBox="0 0 330 200"></svg>
+<div id="nome" class="abs"></div>
+<div id="blocos"></div>
+<div id="card" class="abs">
+  <div id="hd"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i>
+    <span id="hdt"></span><span id="tag"></span></div>
+  <div id="rot"></div>
+  <div id="area" class="abs"></div>
+  <div id="log" class="abs"></div>
+</div>
+<div id="capt" class="abs"><div class="n"></div><div class="t"></div><div class="s"></div></div>
+<div id="cap" class="abs"></div><div id="prog" class="abs"><i></i></div>
+<div id="aviso" class="abs"></div>
+<script>
+const R = window.__ROTEIRO, $ = id => document.getElementById(id);
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const ease = x => 1 - Math.pow(1 - clamp(x), 3);
+const io = (t, a, b, din = .35, dout = .25) => clamp(Math.min((t - a) / din, (b - t) / dout));
+const blur = (el, k, dy = 14) => { el.style.opacity = k; el.style.filter = k >= 1 ? 'none' : `blur(${(1 - k) * 16}px)`; el.style.transform = `translateY(${(1 - k) * dy}px)`; };
+const em = s => (s || '').replace(/\*(.+?)\*/g, '<em>$1</em>');
+if (R.tema === 'noite') document.body.classList.add('noite');
+if (R.decoracao === 'nenhuma') document.body.classList.add('sem-decor');
+if (R.acento) document.body.style.setProperty('--acc', R.acento);
+$('nome').textContent = R.marca || '';
+$('aviso').textContent = R.aviso || '';
+const FIM = R.duracao;
+
+// decoração: arco de pedra com aduelas + lamparina herodiana com chama
+(() => { let s = '';
+  for (let k = 0; k < 9; k++) { const a0 = Math.PI * (k / 9), a1 = Math.PI * ((k + 1) / 9), r1 = 200, r2 = 290;
+    const p = (r, a) => `${260 + Math.cos(Math.PI + a) * r},${300 + Math.sin(Math.PI + a) * r}`;
+    s += `<path d="M${p(r1, a0)} L${p(r2, a0)} A${r2} ${r2} 0 0 1 ${p(r2, a1)} L${p(r1, a1)} A${r1} ${r1} 0 0 0 ${p(r1, a0)}Z" fill="var(--planet1)" stroke="var(--ring)" stroke-width="3"/>`; }
+  $('arco').innerHTML = s;
+  $('lamp').innerHTML = `<path d="M40 150 C40 105 120 92 175 96 C215 98 250 108 262 122 L300 118 C312 117 314 132 302 136 L262 142 C250 160 215 170 170 170 C110 170 40 168 40 150Z" fill="var(--planet1)" stroke="var(--ring)" stroke-width="4"/>
+    <ellipse cx="150" cy="118" rx="34" ry="9" fill="var(--planet2)" opacity=".5"/><path d="M40 140 C20 132 14 112 28 104" fill="none" stroke="var(--ring)" stroke-width="7" stroke-linecap="round"/>
+    <g id="chama"><path d="M296 112 C284 92 292 66 306 46 C312 70 324 88 312 112Z" fill="var(--acc)"/><path d="M300 110 C296 98 300 86 306 76 C309 90 314 100 308 110Z" fill="#ffd27a"/></g>`;
+})();
+
+// batidas (apoio + título), cenas do cartão e capítulos
+R.batidas.forEach((bt, i) => {
+  const d = document.createElement('div'); d.className = 'bloco abs'; d.id = 'b' + i;
+  const n = bt.titulo.map(w => w[1].replace(/\*/g, '')).join(' ').length;
+  d.innerHTML = `<div class="lead">${em(bt.apoio[1])}</div><div class="tit ${n > 34 ? 'p' : n > 22 ? 'm' : ''}">${bt.titulo.map(w => `<span class="w">${em(w[1])}</span>`).join(' ')}</div>`;
+  $('blocos').appendChild(d);
+});
+const CENAS = R.cenas.map((c, i) => {
+  const p = c.painel, d = document.createElement('div'); d.className = 'painel'; d.id = 'p' + i;
+  if (p.tipo === 'imagem') d.innerHTML = (p.ajuste === 'contain' ? `<div class="fundo" style="background-image:url('${p.src}')"></div>` : '') + `<img src="${p.src}" class="${p.ajuste === 'contain' ? 'contain' : ''}" style="object-position:${p.foco || '50% 50%'}">${p.credito ? `<div class="cred">${p.credito}</div>` : ''}`;
+  if (p.tipo === 'lista') d.innerHTML = `<div class="lista">${p.itens.map(it => `<div class="item">${em(it.texto)}${it.nota ? `<small>${it.nota}</small>` : ''}</div>`).join('')}</div>`;
+  if (p.tipo === 'numero') d.innerHTML = `<div class="numero"><b></b><span>${p.legenda || ''}</span></div>`;
+  if (p.tipo === 'citacao') d.innerHTML = `<div class="citacao"><q>${em(p.texto)}</q><cite>${p.ref || ''}</cite></div>`;
+  if (p.tipo === 'svg') d.className += ' svgp', d.innerHTML = p.svg;
+  $('area').appendChild(d); return { c, p, d };
+});
+const atual = (t) => { let k = -1; CENAS.forEach((x, i) => { if (t >= x.c.a - .2) k = i; }); return k; };
+
+function render(t) {
+  $('chama') && $('chama').setAttribute('transform', `translate(306 112) scale(${1 + Math.sin(t * 9) * .05 + Math.sin(t * 13.7) * .04},${1 + Math.sin(t * 11) * .07}) translate(-306 -112)`);
+  $('arco').style.transform = `translate(${Math.sin(t * .15) * 6}px,${Math.cos(t * .15) * 6}px)`;
+  // capítulo em tela cheia
+  const cp = (R.capitulos || []).find(c => t >= c.a - .5 && t < c.b + .5);
+  const kc = cp ? io(t, cp.a, cp.b, .5, .45) : 0;
+  $('capt').style.display = kc > 0 ? 'flex' : 'none';
+  if (cp) { $('capt').querySelector('.n').textContent = cp.n; $('capt').querySelector('.t').innerHTML = em(cp.t); $('capt').querySelector('.s').textContent = cp.s || '';
+    blur($('capt'), kc, 30); }
+  const visivel = 1 - kc;
+  // rodapé: capítulo atual e progresso
+  let cur = null; for (const c of R.capitulos || []) if (t >= c.a) cur = c;
+  $('cap').innerHTML = cur ? `<b>${cur.n}</b> · ${cur.t.replace(/\*/g, '').toUpperCase()}` : '';
+  $('cap').style.opacity = visivel; $('prog').style.opacity = visivel;
+  $('prog').firstChild.style.width = (100 * t / FIM) + '%';
+  // batidas
+  R.batidas.forEach((bt, i) => {
+    const el = $('b' + i), on = t >= bt.apoio[0] - .4 && t < bt.b + .3;
+    el.style.display = on ? 'flex' : 'none'; if (!on) return;
+    const out = Math.min(clamp((bt.b - t) / .25), visivel);
+    blur(el.querySelector('.lead'), Math.min(io(t, bt.apoio[0], 1e9, .35), out));
+    el.querySelectorAll('.w').forEach((w, k) => blur(w, Math.min(io(t, bt.titulo[k][0], 1e9, .3), out), 22));
+  });
+  // cartão: aparece quando há cena ativa e nenhum capítulo na tela
+  const k = atual(t), cena = CENAS[k];
+  const cardOn = cena && t < (cena.c.b ?? 1e9);
+  const kcard = cardOn ? Math.min(io(t, R.cartaoA ?? 0, R.cartaoB ?? 1e9, .45, .4), visivel) : 0;
+  blur($('card'), kcard, 40); $('card').style.display = kcard > 0 ? 'block' : 'none';
+  if (kcard > 0) {
+    $('hdt').textContent = cena.c.arquivo || ''; $('tag').textContent = cena.c.etiqueta || ''; $('rot').textContent = cena.c.rotulo || '';
+    CENAS.forEach(({ c, p, d }, i) => {
+      const fim = CENAS[i + 1] ? CENAS[i + 1].c.a : (c.b ?? 1e9);
+      const kk = io(t, c.a, fim, .45, .35); d.style.display = kk > 0 ? 'block' : 'none'; if (kk <= 0) return;
+      d.style.opacity = kk; d.style.filter = kk >= 1 ? 'none' : `blur(${(1 - kk) * 12}px)`;
+      const u = clamp((t - c.a) / Math.max(4, fim - c.a));
+      if (p.tipo === 'imagem') { const z = p.zoom ?? .06, img = d.querySelector('img');
+        img.style.transform = p.ajuste === 'contain' ? `scale(${1 + .02 * u})` : `scale(${1 + z * u}) translate(${(p.pan || [0, 0])[0] * u}px,${(p.pan || [0, 0])[1] * u}px)`; }
+      if (p.tipo === 'lista') d.querySelectorAll('.item').forEach((it, j) => { const ti = p.itens[j].t, nx = p.itens[j + 1]?.t ?? 1e9;
+        blur(it, io(t, ti, 1e9, .3), 18); it.classList.toggle('atual', t >= ti && t < nx); });
+      if (p.tipo === 'numero') d.querySelector('b').textContent = (p.prefixo || '') + (p.de + (p.para - p.de) * ease((t - p.conta[0]) / (p.conta[1] - p.conta[0]))).toLocaleString('pt-BR', { maximumFractionDigits: p.casas || 0 }) + (p.sufixo || '');
+      if (p.tipo === 'svg' && p.passos) d.querySelectorAll('[data-t]').forEach(el => blur(el, io(t, +el.dataset.t, 1e9, .4), 8));
+    });
+    $('log').innerHTML = (R.diario || []).filter(l => t >= l[0] && t < (l[2] ?? 1e9) && l[0] >= cena.c.a - .5).slice(-2)
+      .map(l => `<div style="opacity:${clamp((t - l[0]) / .5)}">${l[1].replace(/^(\S+)/, '<b>$1</b>')}</div>`).join('');
+  }
+}
+window.render = render;
+</script></body></html>

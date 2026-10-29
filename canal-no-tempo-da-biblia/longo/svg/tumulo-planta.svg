@@ -1,0 +1,23 @@
+<svg viewBox="0 0 828 500" xmlns="http://www.w3.org/2000/svg" font-family="J,monospace">
+ <rect x="0" y="0" width="828" height="500" fill="var(--cardh)"/>
+ <g fill="var(--planet1)" stroke="var(--ring)" stroke-width="3">
+  <rect x="200" y="40" width="430" height="380" rx="6"/>
+ </g>
+ <g data-t="A">
+  <rect x="300" y="140" width="230" height="200" fill="var(--card)" stroke="var(--ink)" stroke-width="4"/>
+  <rect x="385" y="340" width="60" height="80" fill="var(--card)" stroke="var(--ink)" stroke-width="4"/>
+  <text x="415" y="250" text-anchor="middle" font-size="20" fill="var(--sub)" font-weight="700">CÂMARA</text>
+  <text x="415" y="458" text-anchor="middle" font-size="18" fill="var(--sub)">entrada baixa</text>
+  <rect x="393" y="402" width="44" height="16" fill="var(--acc)"/>
+ </g>
+ <g data-t="B" fill="var(--card)" stroke="var(--acc)" stroke-width="4">
+  <rect x="330" y="60" width="38" height="80"/><rect x="396" y="60" width="38" height="80"/><rect x="462" y="60" width="38" height="80"/>
+  <rect x="220" y="170" width="80" height="38"/><rect x="220" y="240" width="80" height="38"/>
+  <rect x="530" y="170" width="80" height="38"/><rect x="530" y="240" width="80" height="38"/>
+ </g>
+ <g data-t="B"><text x="660" y="196" font-size="20" fill="var(--acc)" font-weight="800">kokhim</text>
+  <text x="660" y="222" font-size="16" fill="var(--sub)">nichos de</text><text x="660" y="242" font-size="16" fill="var(--sub)">~2 m</text></g>
+ <g data-t="C"><path d="M190 60 L120 60" stroke="var(--ink)" stroke-width="2"/><text x="20" y="66" font-size="16" fill="var(--sub)">rocha</text>
+  <text x="20" y="86" font-size="16" fill="var(--sub)">calcária</text></g>
+ <text x="414" y="490" text-anchor="middle" font-size="14" fill="var(--muted)">esquema simplificado · vista de cima</text>
+</svg>

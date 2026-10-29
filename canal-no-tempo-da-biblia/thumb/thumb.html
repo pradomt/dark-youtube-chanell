@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:M;font-weight:900;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+@font-face{font-family:M;font-weight:800;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:J;font-weight:700;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-700-normal.woff2)}
+html,body{margin:0;width:1280px;height:720px;overflow:hidden}
+body{font-family:M;position:relative;background:radial-gradient(ellipse 80% 80% at 35% 50%,var(--bg) 0%,var(--bg) 40%,var(--bg2) 100%);color:var(--ink)}
+body.papel{--bg:#f4f0e6;--bg2:#d9d1bf;--ink:#141414;--acc:#c0501f;--mut:#8a8478}
+body.noite{--bg:#0d1430;--bg2:#05081a;--ink:#f3efe6;--acc:#ec7a35;--mut:#9aa3b5}
+#img{position:absolute;right:0;top:0;width:620px;height:720px;background-size:cover;background-position:center;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 30%);mask-image:linear-gradient(90deg,transparent 0,#000 30%)}
+#t{position:absolute;left:60px;top:0;bottom:0;width:780px;display:flex;flex-direction:column;justify-content:center}
+.k{font:700 26px J;letter-spacing:5px;color:var(--mut)}
+.h{font-weight:900;font-size:104px;line-height:.98;letter-spacing:-2px;margin-top:14px;text-shadow:0 2px 0 var(--bg)}
+.h em{font-style:normal;color:var(--acc)}
+.s{display:inline-block;margin-top:26px;background:var(--acc);color:#fff;font-weight:800;font-size:36px;padding:10px 26px;border-radius:50px;align-self:flex-start}
+</style></head><body><div id="img"></div><div id="t"><div class="k"></div><div class="h"></div><div class="s"></div></div>
+<script>const T=window.__T;document.body.className=T.tema;document.getElementById('img').style.backgroundImage=`url('${T.img}')`;
+document.getElementById('img').style.backgroundPosition=T.pos||'center';if(T.size)document.getElementById('img').style.backgroundSize=T.size;
+document.querySelector('.k').textContent=T.k;document.querySelector('.h').innerHTML=T.h.replace(/\*(.+?)\*/g,'<em>$1</em>');document.querySelector('.s').textContent=T.s;</script></body></html>

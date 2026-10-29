@@ -1,0 +1,182 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Template "palco único" para Shorts 1080x1920. O conteúdo vem do roteiro.json (window.__ROTEIRO);
+     visuais específicos de um vídeo entram por um script extra que define window.EXTRA = {init(area, R), render(t)}. -->
+<style>
+@font-face{font-family:M;font-weight:500;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff2)}
+@font-face{font-family:M;font-weight:800;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:M;font-weight:900;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+@font-face{font-family:J;font-weight:500;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-500-normal.woff2)}
+@font-face{font-family:J;font-weight:700;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-700-normal.woff2)}
+@font-face{font-family:J;font-weight:800;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-800-normal.woff2)}
+/* temas: papel (creme, como carta impressa) e noite (azul escuro) */
+:root{--bg:#f4f0e6;--bg2:#ddd6c6;--ink:#141414;--sub:#5a5650;--acc:#e8641e;--card:#fffdf8;--cardh:#f1ece1;--line:#e3dccd;
+  --star:#1f2a44;--cline:#4a6a9a;--muted:#8a8478;--day:#cfe1f2;--planet1:#cfc6b4;--planet2:#8f8676;--ring:#b9b09d}
+body.noite{--bg:#0d1430;--bg2:#05081a;--ink:#f3efe6;--sub:#9aa3b5;--acc:#f1691b;--card:#121a33;--cardh:#182244;--line:#26305a;
+  --star:#ffffff;--cline:#5d7bb5;--muted:#7d88a8;--day:#4c8fd6;--planet1:#2a3566;--planet2:#0b1028;--ring:#3a4677}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden}
+body{background:radial-gradient(ellipse 75% 60% at 50% 42%,var(--bg) 0%,var(--bg) 45%,var(--bg2) 100%);font-family:M,sans-serif;color:var(--ink);position:relative}
+.abs{position:absolute}
+#planeta{left:-330px;top:-330px;width:640px;height:640px;border-radius:50%;
+  background:radial-gradient(circle at 68% 68%,var(--planet1) 0%,var(--planet2) 70%);box-shadow:0 0 60px rgba(0,0,0,.18)}
+body.noite #planeta{box-shadow:18px 18px 40px -10px rgba(241,105,27,.55),0 0 90px rgba(80,120,255,.15)}
+#orbita{left:-420px;top:-200px;width:900px;height:520px;border:2px solid var(--ring);border-radius:50%;transform:rotate(-28deg);opacity:.7}
+#astro{right:-250px;bottom:-250px;width:560px;height:560px}
+body.sem-decor #planeta,body.sem-decor #orbita,body.sem-decor #astro{display:none}
+/* decoração "biblia": arco de pedra no canto e lamparina de barro (canal No Tempo da Bíblia) */
+#arcoB,#lampB{display:none}
+body.biblia #planeta,body.biblia #orbita,body.biblia #astro{display:none}
+body.biblia #arcoB,body.biblia #lampB{display:block}
+#arcoB{left:-380px;top:-280px;width:620px;height:620px;opacity:.8}
+#lampB{right:20px;bottom:10px;width:360px;height:218px}
+.item em{font-style:normal;color:var(--acc)}
+#marca{left:0;right:0;top:118px;text-align:center}
+#nome{left:0;right:0;top:60px;text-align:center;font:500 22px J,monospace;letter-spacing:6px;color:var(--muted)}
+.bloco{left:40px;right:40px;top:280px;text-align:center}
+.lead{font-weight:500;font-size:46px;color:var(--sub);line-height:1.1}
+.tit{font-weight:900;font-size:118px;line-height:1.02;letter-spacing:-1px;margin-top:10px}
+.tit em{font-style:normal;color:var(--acc)}
+.w{display:inline-block;white-space:pre}
+#card{left:50px;top:740px;width:980px;height:920px;background:var(--card);border-radius:30px;overflow:hidden;
+  box-shadow:0 30px 70px rgba(0,0,0,.16),0 0 0 1px var(--line)}
+#hd{height:92px;background:var(--cardh);border-bottom:2px solid var(--line);display:flex;align-items:center;padding:0 30px;gap:14px;font-weight:800;font-size:30px}
+#hd i{width:20px;height:20px;border-radius:50%;display:inline-block}
+#hdt{margin-left:18px;flex:1}
+#tag{font:700 26px J,monospace;color:var(--acc)}
+#rot{height:56px;padding:22px 34px 0;font:700 24px J,monospace;letter-spacing:3px;color:var(--muted)}
+#area{left:30px;top:170px;width:920px;height:520px;border-radius:20px;overflow:hidden}
+.painel{position:absolute;inset:0}
+.painel img{position:absolute;left:110px;top:20px;width:700px;height:480px;object-fit:cover;border-radius:14px}
+.painel img.contain{object-fit:contain}
+.painel .fundo{position:absolute;left:110px;top:20px;width:700px;height:480px;border-radius:14px;background-size:cover;background-position:center;filter:blur(22px) brightness(.85)}
+.painel .cred{position:absolute;left:110px;width:700px;top:506px;text-align:center;font:500 17px J,monospace;color:var(--muted)}
+.lista{padding:20px 10px;display:flex;flex-direction:column;gap:18px}
+.item{padding:22px 28px;border-radius:16px;background:var(--cardh);border:3px solid transparent;font-weight:800;font-size:38px}
+.item.atual{border-color:var(--acc)}
+.item small{display:block;font:500 24px J,monospace;color:var(--muted);margin-top:6px}
+.numero{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%}
+.painel svg{width:828px;height:500px}
+.numero b{font-weight:900;font-size:220px;color:var(--acc);line-height:1}
+.numero span{font:700 30px J,monospace;color:var(--muted);letter-spacing:3px;margin-top:10px}
+.barra{position:absolute;left:60px;right:60px;top:300px}
+.barra .trilho{height:26px;border-radius:13px;background:var(--line);overflow:hidden}
+.barra .cheio{height:100%;background:var(--acc)}
+.barra .rotb{display:flex;justify-content:space-between;font:700 30px J,monospace;color:var(--muted);margin-bottom:16px}
+#log{left:0;right:0;top:712px;height:208px;border-top:2px solid var(--line);background:var(--cardh);padding:20px 34px;box-sizing:border-box;
+  font:500 26px/1.65 J,monospace;color:var(--sub)}
+#log b{color:var(--acc);font-weight:700}
+#cta{left:0;right:0;top:860px;text-align:center}
+.pill{display:inline-block;padding:14px 38px;border-radius:60px;font-weight:800;font-size:44px;border:4px solid var(--ink);margin:0 8px}
+.pill.on{background:var(--acc);border-color:var(--acc);color:#fff}
+#seta{left:0;right:0;top:1020px;text-align:center}
+#aviso{left:0;right:0;bottom:70px;text-align:center;font:500 22px J,monospace;color:var(--muted)}
+</style></head>
+<body>
+<div id="planeta" class="abs"></div><div id="orbita" class="abs"></div>
+<svg id="astro" class="abs" viewBox="-280 -280 560 560"></svg>
+<svg id="arcoB" class="abs" viewBox="0 0 520 520"></svg><svg id="lampB" class="abs" viewBox="0 0 330 200"></svg>
+<div id="nome" class="abs"></div>
+<div id="marca" class="abs"><svg width="90" height="90" viewBox="-50 -50 100 100"><path d="M0-46 C6-8 8-6 46 0 C8 6 6 8 0 46 C-6 8-8 6-46 0 C-8-6-6-8 0-46Z" fill="var(--acc)"/></svg></div>
+<div id="blocos"></div>
+<div id="card" class="abs">
+  <div id="hd"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i>
+    <span id="hdt"></span><span id="tag"></span></div>
+  <div id="rot"></div>
+  <div id="area" class="abs"></div>
+  <div id="log" class="abs"></div>
+</div>
+<div id="cta" class="abs"></div>
+<div id="seta" class="abs"><svg width="120" height="140" viewBox="0 0 120 140"><path d="M60 10 V110 M20 75 L60 118 L100 75" stroke="var(--acc)" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+<div id="aviso" class="abs"></div>
+<script>
+const R = window.__ROTEIRO, $ = id => document.getElementById(id);
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const ease = x => 1 - Math.pow(1 - clamp(x), 3);
+const io = (t, a, b, din = .35, dout = .25) => clamp(Math.min((t - a) / din, (b - t) / dout));
+const blur = (el, k, dy = 14) => { el.style.opacity = k; el.style.filter = `blur(${(1 - k) * 16}px)`; el.style.transform = `translateY(${(1 - k) * dy}px)`; };
+const em = s => s.replace(/\*(.+?)\*/g, '<em>$1</em>');  // *palavra* = destaque na cor de acento
+const atual = (lst, t, pad = '') => { let v = pad; for (const [a, x] of lst || []) if (t >= a) v = x; return v; };
+Object.assign(window, { clamp, ease, io, blur });
+
+if (R.tema === 'noite') document.body.classList.add('noite');
+if (R.decoracao === 'nenhuma') document.body.classList.add('sem-decor');
+if (R.decoracao === 'biblia') document.body.classList.add('biblia');
+if (R.acento) document.body.style.setProperty('--acc', R.acento);
+$('nome').textContent = R.marca || '';
+$('aviso').textContent = R.aviso || '';
+const FIM = R.duracao;
+
+// batidas: linha de apoio + título; cada pedaço do título entra no seu tempo
+R.batidas.forEach((bt, i) => {
+  const d = document.createElement('div'); d.className = 'bloco abs'; d.id = 'b' + i;
+  d.innerHTML = `<div class="lead">${em(bt.apoio[1])}</div><div class="tit">${bt.titulo.map(w => `<span class="w">${em(w[1])}</span>`).join(' ')}</div>`;
+  $('blocos').appendChild(d);
+});
+
+// decoração: astrolábio girando no canto
+(() => { let s = '';
+  for (const r of [260, 210, 150]) s += `<circle r="${r}" fill="none" stroke="var(--ring)" stroke-width="${r === 210 ? 3 : 2}"/>`;
+  for (let k = 0; k < 72; k++) { const a = k * Math.PI / 36, r1 = k % 6 ? 248 : 232;
+    s += `<line x1="${Math.cos(a) * r1}" y1="${Math.sin(a) * r1}" x2="${Math.cos(a) * 260}" y2="${Math.sin(a) * 260}" stroke="var(--ring)" stroke-width="2"/>`; }
+  s += `<line x1="-260" y1="0" x2="260" y2="0" stroke="var(--ring)" stroke-width="3"/><circle r="10" fill="var(--acc)"/>`;
+  $('astro').innerHTML = `<g id="astrog">${s}</g>`; })();
+
+// decoração "biblia": arco de pedra + lamparina com chama
+(() => { let s = '';
+  for (let k = 0; k < 9; k++) { const a0 = Math.PI * (k / 9), a1 = Math.PI * ((k + 1) / 9), r1 = 200, r2 = 290;
+    const p = (r, a) => `${260 + Math.cos(Math.PI + a) * r},${300 + Math.sin(Math.PI + a) * r}`;
+    s += `<path d="M${p(r1, a0)} L${p(r2, a0)} A${r2} ${r2} 0 0 1 ${p(r2, a1)} L${p(r1, a1)} A${r1} ${r1} 0 0 0 ${p(r1, a0)}Z" fill="var(--planet1)" stroke="var(--ring)" stroke-width="3"/>`; }
+  $('arcoB').innerHTML = s;
+  $('lampB').innerHTML = `<path d="M40 150 C40 105 120 92 175 96 C215 98 250 108 262 122 L300 118 C312 117 314 132 302 136 L262 142 C250 160 215 170 170 170 C110 170 40 168 40 150Z" fill="var(--planet1)" stroke="var(--ring)" stroke-width="4"/>
+    <ellipse cx="150" cy="118" rx="34" ry="9" fill="var(--planet2)" opacity=".5"/><path d="M40 140 C20 132 14 112 28 104" fill="none" stroke="var(--ring)" stroke-width="7" stroke-linecap="round"/>
+    <g id="chamaB"><path d="M296 112 C284 92 292 66 306 46 C312 70 324 88 312 112Z" fill="var(--acc)"/><path d="M300 110 C296 98 300 86 306 76 C309 90 314 100 308 110Z" fill="#ffd27a"/></g>`; })();
+
+// painéis do cartão: imagem | lista | numero | barra | extra (desenhado pelo script do vídeo)
+const C = R.cartao, PAIN = (C.paineis || []).map((p, i) => {
+  const d = document.createElement('div'); d.className = 'painel'; d.id = 'p' + i;
+  if (p.tipo === 'imagem') d.innerHTML = (p.ajuste === 'contain' ? `<div class="fundo" style="background-image:url('${p.src}')"></div>` : '') + `<img src="${p.src}" class="${p.ajuste || ''}" style="object-position:${p.foco || '50% 50%'}">` + (p.credito ? `<div class="cred">${p.credito}</div>` : '');
+  if (p.tipo === 'lista') d.innerHTML = `<div class="lista">${p.itens.map(it => `<div class="item">${em(it.texto)}${it.nota ? `<small>${it.nota}</small>` : ''}</div>`).join('')}</div>`;
+  if (p.tipo === 'svg') d.innerHTML = `<div style="position:absolute;left:46px;top:10px;width:828px;height:500px">${p.svg}</div>`;
+  if (p.tipo === 'numero') d.innerHTML = `<div class="numero"><b></b><span>${p.legenda || ''}</span></div>`;
+  if (p.tipo === 'barra') d.innerHTML = `<div class="barra"><div class="rotb"><span>${p.legenda || ''}</span><span class="pct"></span></div><div class="trilho"><div class="cheio"></div></div></div>`;
+  $('area').appendChild(d); return { p, d };
+});
+if (window.EXTRA) PAIN.filter(x => x.p.tipo === 'extra').forEach(x => EXTRA.init(x.d, R));
+$('cta').innerHTML = (R.chamada?.pilulas || []).map((p, i, a) => `<span class="pill ${i === a.length - 1 ? 'on' : ''}">${p}</span>`).join('');
+
+function render(t) {
+  const mk = Math.max(io(t, 0, 3.6, .5, .4), io(t, R.chamada.a, 99, .5));
+  $('marca').style.opacity = mk; $('marca').style.transform = `scale(${.6 + .4 * ease(mk)}) rotate(${t * 22}deg)`;
+  $('astrog').setAttribute('transform', `rotate(${t * 4})`);
+  $('chamaB').setAttribute('transform', `translate(306 112) scale(${1 + Math.sin(t * 9) * .05 + Math.sin(t * 13.7) * .04},${1 + Math.sin(t * 11) * .07}) translate(-306 -112)`);
+  $('arcoB').style.transform = `translate(${Math.sin(t * .2) * 8}px,${Math.cos(t * .2) * 8}px)`;
+  $('planeta').style.transform = `translate(${Math.sin(t * .2) * 8}px,${Math.cos(t * .2) * 8}px)`;
+  R.batidas.forEach((bt, i) => {
+    const el = $('b' + i), on = t >= bt.apoio[0] - .4 && t < bt.b + .3;
+    el.style.display = on ? 'block' : 'none'; if (!on) return;
+    const out = clamp((bt.b - t) / .25);
+    blur(el.querySelector('.lead'), Math.min(io(t, bt.apoio[0], 99, .35), out));
+    el.querySelectorAll('.w').forEach((w, k) => blur(w, Math.min(io(t, bt.titulo[k][0], 99, .3), out), 22));
+  });
+  blur($('card'), Math.min(io(t, C.a, 99, .45), clamp((C.b - t) / .4)), 40);
+  $('hdt').textContent = atual(C.arquivo, t); $('tag').textContent = atual(C.etiqueta, t); $('rot').textContent = atual(C.rotulo, t);
+  PAIN.forEach(({ p, d }) => {
+    const k = io(t, p.a, p.b, .4, .35); d.style.opacity = k; d.style.filter = `blur(${(1 - k) * 12}px)`; d.style.display = k > 0 ? 'block' : 'none';
+    if (k <= 0) return;
+    if (p.tipo === 'imagem') d.firstChild.style.transform = `scale(${1 + .03 * clamp((t - p.a) / (p.b - p.a))})`;
+    if (p.tipo === 'lista') d.querySelectorAll('.item').forEach((it, j) => { const ti = p.itens[j].t, nx = p.itens[j + 1]?.t ?? 1e9;
+      blur(it, io(t, ti, 99, .3), 18); it.classList.toggle('atual', t >= ti && t < nx); });
+    if (p.tipo === 'svg') d.querySelectorAll('[data-t]').forEach(el => blur(el, io(t, +el.dataset.t, 99, .4), 8));
+    if (p.tipo === 'numero') d.querySelector('b').textContent = (p.prefixo || '') + Math.round(p.de + (p.para - p.de) * ease((t - p.conta[0]) / (p.conta[1] - p.conta[0]))) + (p.sufixo || '');
+    if (p.tipo === 'barra') { const v = p.de + (p.para - p.de) * ease((t - p.conta[0]) / (p.conta[1] - p.conta[0]));
+      d.querySelector('.cheio').style.width = v + '%'; d.querySelector('.pct').textContent = Math.round(v) + '%'; }
+  });
+  if (window.EXTRA) EXTRA.render(t);
+  $('log').innerHTML = (C.diario || []).filter(l => t >= l[0] && t < (l[2] ?? 99)).slice(-3)
+    .map(l => `<div style="opacity:${clamp((t - l[0]) / .5)}">${l[1].replace(/^(\S+)/, '<b>$1</b>')}</div>`).join('');
+  blur($('cta'), io(t, R.chamada.a + .5, 99, .4), 30);
+  $('seta').style.opacity = R.chamada.seta === false ? 0 : io(t, R.chamada.a + 1.5, 99, .3);
+  $('seta').style.transform = `translateY(${Math.sin(t * 6) * 14}px)`;
+}
+window.render = render;
+</script></body></html>

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 828 500" xmlns="http://www.w3.org/2000/svg" font-family="M,sans-serif">
+ <rect width="828" height="500" fill="var(--cardh)"/>
+ <g data-t="A" font-size="34" font-weight="800" fill="var(--sub)">
+  <text x="60" y="110">v.1–3</text>
+  <text x="230" y="110">ele me faz deitar</text><text x="230" y="160">ele me conduz</text><text x="230" y="210">ele me guia</text>
+ </g>
+ <line data-t="B" x1="60" y1="260" x2="768" y2="260" stroke="var(--line)" stroke-width="4" stroke-dasharray="12 10"/>
+ <g data-t="B" font-size="34" font-weight="900" fill="var(--acc)">
+  <text x="60" y="340">v.4</text>
+  <text x="230" y="340">porque TU</text><text x="230" y="392">estás comigo</text>
+ </g>
+ <text data-t="B" x="60" y="460" font-family="J,monospace" font-size="18" fill="var(--muted)">de falar SOBRE Deus para falar COM Deus</text>
+</svg>

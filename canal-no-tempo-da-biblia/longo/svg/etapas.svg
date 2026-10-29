@@ -1,0 +1,8 @@
+<svg viewBox="0 0 828 500" xmlns="http://www.w3.org/2000/svg" font-family="J,monospace">
+ <rect width="828" height="500" fill="var(--cardh)"/>
+ <line x1="70" y1="250" x2="770" y2="250" stroke="var(--line)" stroke-width="8" stroke-linecap="round"/>
+ <g data-t="A"><circle cx="90" cy="250" r="22" fill="var(--acc)"/><text x="90" y="200" text-anchor="middle" font-size="22" font-weight="800" fill="var(--ink)">morte</text><text x="90" y="310" text-anchor="middle" font-size="16" fill="var(--sub)">dia 0</text></g>
+ <g data-t="B"><circle cx="260" cy="250" r="22" fill="var(--acc)"/><text x="260" y="200" text-anchor="middle" font-size="22" font-weight="800" fill="var(--ink)">enterro</text><text x="260" y="310" text-anchor="middle" font-size="16" fill="var(--sub)">mesmo dia</text></g>
+ <g data-t="C"><circle cx="430" cy="250" r="22" fill="var(--acc)"/><text x="430" y="200" text-anchor="middle" font-size="22" font-weight="800" fill="var(--ink)">luto</text><text x="430" y="310" text-anchor="middle" font-size="16" fill="var(--sub)">7 dias</text></g>
+ <g data-t="D"><circle cx="740" cy="250" r="22" fill="var(--acc)"/><text x="740" y="200" text-anchor="middle" font-size="22" font-weight="800" fill="var(--ink)">ossuário</text><text x="740" y="310" text-anchor="middle" font-size="16" fill="var(--sub)">~1 ano depois</text></g>
+</svg>

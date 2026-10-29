@@ -1,0 +1,19 @@
+<svg viewBox="0 0 828 500" xmlns="http://www.w3.org/2000/svg" font-family="J,monospace">
+ <rect width="828" height="500" fill="var(--cardh)"/>
+ <g data-t="A">
+  <rect x="40" y="70" width="330" height="330" fill="var(--planet1)" stroke="var(--ring)" stroke-width="3"/>
+  <rect x="160" y="190" width="90" height="110" fill="var(--ink)" opacity=".85"/>
+  <path d="M140 170 L270 170 L262 196 L262 300 L148 300 L148 196Z" fill="var(--acc)" stroke="var(--ink)" stroke-width="3" opacity=".95" transform="translate(-6 8)"/>
+  <text x="205" y="440" text-anchor="middle" font-size="22" font-weight="800" fill="var(--ink)">pedra quadrada</text>
+  <text x="205" y="468" text-anchor="middle" font-size="16" fill="var(--sub)">tipo "rolha" · a maioria</text>
+ </g>
+ <g data-t="B">
+  <rect x="458" y="70" width="330" height="330" fill="var(--planet1)" stroke="var(--ring)" stroke-width="3"/>
+  <rect x="560" y="200" width="70" height="100" fill="var(--ink)" opacity=".85"/>
+  <path d="M470 312 L790 300" stroke="var(--ink)" stroke-width="4"/>
+  <circle cx="700" cy="230" r="78" fill="var(--acc)" stroke="var(--ink)" stroke-width="3"/>
+  <circle cx="700" cy="230" r="10" fill="var(--ink)"/>
+  <text x="623" y="440" text-anchor="middle" font-size="22" font-weight="800" fill="var(--ink)">pedra redonda</text>
+  <text x="623" y="468" text-anchor="middle" font-size="16" fill="var(--sub)">rara · túmulos de famílias ricas</text>
+ </g>
+</svg>
