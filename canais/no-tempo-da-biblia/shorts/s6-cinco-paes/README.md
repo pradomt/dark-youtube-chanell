@@ -34,7 +34,7 @@ Nada foi publicado.
 1. **Voz:** as amostras foram geradas pela voz de leitura do Edge (grátis, não oficial). Para publicar com monetização, o caminho oficial é a mesma voz pela conta gratuita do Azure Speech.
 2. **Fatos:** "mais de 6 meses de salário" (200 denários = 200 dias de trabalho, Mt 20:2 e Jo 6:7); "15 mil pessoas" é estimativa e está dita como tal; pão de cevada mais barato (Ap 6:6, 3 medidas de cevada pelo preço de 1 de trigo); "sobrar" (Jo 6:12) e "abundância" (Jo 10:10) vêm da mesma raiz grega perisso-.
 3. **Citações** em paráfrase, marcadas na tela.
-4. **Duração:** 79 s. Shorts podem ter até 3 minutos, mas, se quiser abaixo de 60 s, dá para cortar as frases do denário e do pão de cevada.
+4. **Duração:** 80 s. Shorts podem ter até 3 minutos, mas, se quiser abaixo de 60 s, dá para cortar as frases do denário e do pão de cevada.
 
 ## Ao publicar
 
