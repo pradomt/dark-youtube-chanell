@@ -1,0 +1,319 @@
+{
+ "tema": "noite",
+ "marca": "NO TEMPO DA BÍBLIA",
+ "audio": "../mix.wav",
+ "decoracao": "biblia",
+ "acento": "#ec7a35",
+ "cartao": null,
+ "batidas": [
+  {
+   "b": 6.06,
+   "apoio": [
+    0.3,
+    "alimentar a multidão custaria mais de"
+   ],
+   "titulo": [
+    [
+     0.5,
+     "*6 meses*"
+    ],
+    [
+     1.05,
+     "de salário"
+    ]
+   ]
+  },
+  {
+   "b": 10.23,
+   "apoio": [
+    6.01,
+    "sem contar mulheres e crianças"
+   ],
+   "titulo": [
+    [
+     6.26,
+     "*5 mil*"
+    ],
+    [
+     6.81,
+     "homens"
+    ]
+   ]
+  },
+  {
+   "b": 14.86,
+   "apoio": [
+    10.19,
+    "contando todo mundo, talvez"
+   ],
+   "titulo": [
+    [
+     10.44,
+     "*15 mil*"
+    ],
+    [
+     10.99,
+     "pessoas"
+    ]
+   ]
+  },
+  {
+   "b": 19.17,
+   "apoio": [
+    14.81,
+    "Filipe fez a conta:"
+   ],
+   "titulo": [
+    [
+     15.06,
+     "*200*"
+    ],
+    [
+     15.61,
+     "denários"
+    ]
+   ]
+  },
+  {
+   "b": 22.93,
+   "apoio": [
+    19.12,
+    "1 denário era o pagamento de"
+   ],
+   "titulo": [
+    [
+     19.37,
+     "*1 dia* de"
+    ],
+    [
+     19.92,
+     "trabalho"
+    ]
+   ]
+  },
+  {
+   "b": 28.11,
+   "apoio": [
+    22.88,
+    "200 dias de trabalho, e"
+   ],
+   "titulo": [
+    [
+     23.13,
+     "não *dava*"
+    ],
+    [
+     23.68,
+     "para todos"
+    ]
+   ]
+  },
+  {
+   "b": 33.83,
+   "apoio": [
+    28.06,
+    "tudo o que havia:"
+   ],
+   "titulo": [
+    [
+     28.31,
+     "*5 pães*"
+    ],
+    [
+     28.86,
+     "e 2 peixes"
+    ]
+   ]
+  },
+  {
+   "b": 39.22,
+   "apoio": [
+    33.78,
+    "pão de cevada era"
+   ],
+   "titulo": [
+    [
+     34.03,
+     "o pão dos"
+    ],
+    [
+     34.58,
+     "*pobres*"
+    ]
+   ]
+  },
+  {
+   "b": 44.65,
+   "apoio": [
+    39.17,
+    "mas Jesus mandou sentar"
+   ],
+   "titulo": [
+    [
+     39.42,
+     "em grupos"
+    ],
+    [
+     39.97,
+     "de *100* e *50*"
+    ]
+   ]
+  },
+  {
+   "b": 49.98,
+   "apoio": [
+    44.6,
+    "deu graças e partiu os pães"
+   ],
+   "titulo": [
+    [
+     44.85,
+     "*todos*"
+    ],
+    [
+     45.4,
+     "comeram"
+    ]
+   ]
+  },
+  {
+   "b": 54.35,
+   "apoio": [
+    49.92,
+    "recolham o que sobrou"
+   ],
+   "titulo": [
+    [
+     50.17,
+     "para que nada"
+    ],
+    [
+     50.72,
+     "se *perca*"
+    ]
+   ]
+  },
+  {
+   "b": 57.22,
+   "apoio": [
+    54.3,
+    "e encheram"
+   ],
+   "titulo": [
+    [
+     54.55,
+     "*12*"
+    ],
+    [
+     55.1,
+     "cestos"
+    ]
+   ]
+  },
+  {
+   "b": 62.37,
+   "apoio": [
+    57.17,
+    "no grego, sobrar e abundância"
+   ],
+   "titulo": [
+    [
+     57.42,
+     "têm a mesma"
+    ],
+    [
+     57.97,
+     "*raiz*"
+    ]
+   ]
+  },
+  {
+   "b": 66.52,
+   "apoio": [
+    62.32,
+    "eu vim para que tenham vida"
+   ],
+   "titulo": [
+    [
+     62.57,
+     "e vida em"
+    ],
+    [
+     63.12,
+     "*abundância*"
+    ]
+   ]
+  },
+  {
+   "b": 69.19,
+   "apoio": [
+    66.47,
+    "o que você tem"
+   ],
+   "titulo": [
+    [
+     66.72,
+     "parece"
+    ],
+    [
+     67.27,
+     "*pouco*?"
+    ]
+   ]
+  },
+  {
+   "b": 71.57,
+   "apoio": [
+    69.14,
+    "nas mãos dele,"
+   ],
+   "titulo": [
+    [
+     69.39,
+     "não falta."
+    ]
+   ]
+  },
+  {
+   "b": 99,
+   "apoio": [
+    71.52,
+    "nas mãos dele, não falta."
+   ],
+   "titulo": [
+    [
+     71.77,
+     "*sobra*."
+    ]
+   ]
+  }
+ ],
+ "chamada": {
+  "a": 72.84,
+  "pilulas": [
+   "Mt 14 · Mc 6 · Jo 6",
+   "No Tempo da Bíblia"
+  ],
+  "seta": false
+ },
+ "extra": "paes.js",
+ "frases": [
+  0.35,
+  6.111,
+  10.285,
+  14.909,
+  19.224,
+  22.984,
+  28.161,
+  33.877,
+  39.267,
+  44.701,
+  50.025,
+  54.397,
+  57.269,
+  62.419,
+  66.565,
+  69.243,
+  71.621
+ ]
+}
