@@ -1,87 +1,102 @@
 [
  {
   "start": 0.35,
-  "end": 4.981,
-  "text": "Dar comida à multidão daquela tarde custaria mais de seis meses de salário."
+  "end": 5.233,
+  "text": "Dar comida à multidão daquela tarde custaria mais de seis meses de salário.",
+  "nota": 1.0
  },
  {
-  "start": 5.731,
-  "end": 9.454,
-  "text": "Eram cinco mil homens, sem contar mulheres e crianças."
+  "start": 5.983,
+  "end": 9.932,
+  "text": "Eram cinco mil homens, sem contar mulheres e crianças.",
+  "nota": 1.0
  },
  {
-  "start": 10.154,
-  "end": 14.857,
-  "text": "Contando todo mundo, talvez umas quinze mil pessoas. Ou mais."
+  "start": 10.632,
+  "end": 16.124,
+  "text": "Contando todo mundo, talvez umas quinze mil pessoas. Ou mais.",
+  "nota": 1.0
  },
  {
-  "start": 15.657,
-  "end": 19.749,
-  "text": "Filipe fez a conta: duzentos denários de pão não bastariam."
+  "start": 16.924,
+  "end": 21.812,
+  "text": "Filipe fez a conta: duzentos denários de pão não bastariam.",
+  "nota": 0.98
  },
  {
-  "start": 20.399,
-  "end": 23.563,
-  "text": "Um denário era o pagamento de um dia de trabalho."
+  "start": 22.462,
+  "end": 25.962,
+  "text": "Um denário era o pagamento de um dia de trabalho.",
+  "nota": 1.0
  },
  {
-  "start": 24.163,
-  "end": 28.531,
-  "text": "Duzentos dias de trabalho, e não daria nem um pedaço para cada um."
+  "start": 26.562,
+  "end": 31.389,
+  "text": "Duzentos dias de trabalho, e não daria nem um pedaço para cada um.",
+  "nota": 1.0
  },
  {
-  "start": 29.431,
-  "end": 34.489,
-  "text": "Tudo o que havia era o lanche de um menino: cinco pães de cevada e dois peixinhos."
+  "start": 32.289,
+  "end": 38.45,
+  "text": "Tudo o que havia era o lanche de um menino: cinco pães de cevada e dois peixinhos.",
+  "nota": 1.0
  },
  {
-  "start": 35.189,
-  "end": 39.278,
-  "text": "E pão de cevada era o mais barato. O pão de quem tinha pouco."
+  "start": 39.15,
+  "end": 44.386,
+  "text": "E pão de cevada era o mais barato. O pão de quem tinha pouco.",
+  "nota": 0.97
  },
  {
-  "start": 40.678,
-  "end": 45.397,
-  "text": "Mas Jesus mandou o povo sentar na grama, em grupos de cem e de cinquenta."
+  "start": 45.786,
+  "end": 51.341,
+  "text": "Mas Jesus mandou o povo sentar na grama, em grupos de cem e de cinquenta.",
+  "nota": 1.0
  },
  {
-  "start": 46.097,
-  "end": 51.024,
-  "text": "Deu graças, partiu os pães, e todos comeram até ficar satisfeitos."
+  "start": 52.041,
+  "end": 57.332,
+  "text": "Deu graças, partiu os pães, e todos comeram até ficar satisfeitos.",
+  "nota": 1.0
  },
  {
-  "start": 51.774,
-  "end": 55.995,
-  "text": "Depois ele disse: recolham o que sobrou, para que nada se perca."
+  "start": 58.082,
+  "end": 63.274,
+  "text": "Depois ele disse: recolham o que sobrou, para que nada se perca.",
+  "nota": 0.98
  },
  {
-  "start": 56.595,
-  "end": 59.291,
-  "text": "E os discípulos encheram doze cestos."
+  "start": 63.874,
+  "end": 66.312,
+  "text": "E os discípulos encheram doze cestos.",
+  "nota": 0.97
  },
  {
-  "start": 60.391,
-  "end": 65.242,
-  "text": "No grego, a palavra sobrar tem a mesma raiz de outra frase de Jesus:"
+  "start": 67.412,
+  "end": 72.375,
+  "text": "No grego, a palavra sobrar tem a mesma raiz de outra frase de Jesus:",
+  "nota": 1.0
  },
  {
-  "start": 65.842,
-  "end": 69.1,
-  "text": "Eu vim para que tenham vida, e vida em abundância."
+  "start": 72.975,
+  "end": 76.569,
+  "text": "Eu vim para que tenham vida, e vida em abundância.",
+  "nota": 1.0
  },
  {
-  "start": 70.2,
-  "end": 71.801,
-  "text": "O que você tem parece pouco?"
+  "start": 77.669,
+  "end": 79.653,
+  "text": "O que você tem parece pouco?",
+  "nota": 1.0
  },
  {
-  "start": 72.401,
-  "end": 74.429,
+  "start": 80.253,
+  "end": 82.326,
   "text": "Nas mãos dele, não falta."
  },
  {
-  "start": 74.929,
-  "end": 75.602,
+  "start": 82.826,
+  "end": 83.492,
   "text": "Sobra."
  }
 ]
