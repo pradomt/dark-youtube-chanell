@@ -1,0 +1,10 @@
+{
+  "name": "short-palco-unico",
+  "private": true,
+  "description": "Template de Shorts 'palco único' (Mapa do Céu)",
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "5.2.5",
+    "@fontsource/montserrat": "5.2.5",
+    "playwright": "1.63.0"
+  }
+}
