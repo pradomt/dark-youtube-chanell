@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:M;font-weight:900;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+@font-face{font-family:M;font-weight:500;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff2)}
+@font-face{font-family:J;font-weight:500;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-500-normal.woff2)}
+body{margin:0;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#f6f1e6,#e8dfcc);font-family:M}
+.abs{position:absolute}
+</style></head><body>
+<script>
+const P='#cfc6b4',R='#b9b09d',A='#c0501f';
+function arco(){let s='';for(let k=0;k<9;k++){const a0=Math.PI*k/9,a1=Math.PI*(k+1)/9,r1=200,r2=290,p=(r,a)=>`${260+Math.cos(Math.PI+a)*r},${300+Math.sin(Math.PI+a)*r}`;
+s+=`<path d="M${p(r1,a0)} L${p(r2,a0)} A${r2} ${r2} 0 0 1 ${p(r2,a1)} L${p(r1,a1)} A${r1} ${r1} 0 0 0 ${p(r1,a0)}Z" fill="${P}" stroke="${R}" stroke-width="3"/>`}return s}
+const lamp=`<path d="M40 150 C40 105 120 92 175 96 C215 98 250 108 262 122 L300 118 C312 117 314 132 302 136 L262 142 C250 160 215 170 170 170 C110 170 40 168 40 150Z" fill="${P}" stroke="${R}" stroke-width="4"/><ellipse cx="150" cy="118" rx="34" ry="9" fill="#8f8676" opacity=".5"/><path d="M40 140 C20 132 14 112 28 104" fill="none" stroke="${R}" stroke-width="7" stroke-linecap="round"/><path d="M296 112 C284 92 292 66 306 46 C312 70 324 88 312 112Z" fill="${A}"/><path d="M300 110 C296 98 300 86 306 76 C309 90 314 100 308 110Z" fill="#ffd27a"/>`;
+const q=new URLSearchParams(location.search),modo=q.get('m'),W=+q.get('w'),H=+q.get('h');
+document.body.style.width=W+'px';document.body.style.height=H+'px';
+if(modo==='avatar'){ // arco + lamparina, centrado para recorte circular
+ document.body.innerHTML=`<svg class="abs" style="left:${W*.19}px;top:${H*.2}px;width:${W*.68}px;margin-left:-${W*.03}px" viewBox="-40 0 600 320">${arco()}</svg>
+ <svg class="abs" style="left:${W*.25}px;top:${H*.43}px;width:${W*.5}px" viewBox="0 0 330 200">${lamp}</svg>
+ <div class="abs" style="left:0;right:0;top:${H*.7}px;text-align:center;font:500 ${W*.036}px J;letter-spacing:.3em;color:#7d766a">NO TEMPO DA BÍBLIA</div>`;}
+else { // banner: conteúdo dentro da área segura central
+ const sw=q.get('sw')?+q.get('sw'):W*.8, cx=W/2;
+ document.body.innerHTML=`<svg class="abs" style="left:${cx-sw/2+10}px;top:${H/2-170}px;width:300px" viewBox="0 0 330 200">${lamp}</svg>
+ <div class="abs" style="left:${cx-sw/2+320}px;top:${H/2-115}px">
+  <div style="font:900 106px/1 M;color:#141414">No Tempo da <span style="color:${A}">Bíblia</span></div>
+  <div style="font:500 40px M;color:#5b554b;margin-top:18px">A história por trás de cada história · vídeos toda semana</div></div>
+ <svg class="abs" style="right:-120px;top:-260px;width:900px;opacity:.6" viewBox="0 0 520 520">${arco()}</svg>`;}
+</script></body></html>
