@@ -14,6 +14,7 @@ Os limites de caracteres são os de hoje; se o app reclamar, encurte. Use o mesm
 | Cores | papel #f3eee3 · laranja #c0501f · texto #141414 |
 | Foto de perfil | `foto-perfil-800.png` (arco de pedra + lamparina, já pensada para o recorte redondo) |
 | Banner do YouTube | `banner-youtube-2560x1440.png` (texto dentro da área segura de 1546×423) |
+| Logo | pasta `logo/`: horizontal (ícone + nome + frase) e ícone sozinho, cada um em versão clara e escura, com fundo transparente |
 | Capa genérica | `capa-1600x900.png` (para o Kwai ou outro lugar que peça capa) |
 
 Dica: tente o mesmo @ nas quatro antes de criar qualquer uma. Se faltar em uma, escolha a primeira alternativa livre em **todas**, para ficar igual.
